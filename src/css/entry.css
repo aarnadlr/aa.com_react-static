@@ -14,11 +14,21 @@
 }
 body{
   /* background: navy; */
+  font-family: "Poppins";
   background: rgb(0, 0, 71);
+}
+
+#profile-pic{
+  width: 75px;
+  border-radius: 100px;
 }
 
 #title{
   color: var(--blue7);
+}
+
+#topSection{
+  max-width: 600px;
 }
 
 .tag{

@@ -6,23 +6,27 @@ import styled from "styled-components";
 const uuidv1 = require("uuid/v1");
 
 const Div = styled.div`
-  font-family: "Poppins";
-  /* background: white; */
   width: 400px;
-  /* display: flex; */
-  /* height: 500px; */
   border-radius: 9px;
 `;
 // --------- END STYLED-COMPONENTS ---------
 
 const Ww4 = () => {
   return (
-    <div className="flex flex-wrap">
+    <div className="">
+
+      
+    <div id='topSection' className="flex flex-column center white mt7 mb5">
+      <img id='profile-pic' className='center mb3' src="https://ww3.aaronadler.com/assets/img/ww3-aa/profile-pic.jpg" />
+      <p className='f2c tc'>Aaron Adler</p>
+      <p className='f5 lh-copy3b'>Hi there. I’m a UI designer / Front-end developer in NYC. I’ve worked on projects for Facebook, Google, IBM, R/GA, Droga5, BBH New York and others. My work has been recognized by Cannes, AICP, the Art Directors Club, Clios, Communication Arts, Archive, Adweek, and the New York Times. My focus is on  UI design ,  React ,  javascript  and coded animation.</p>
+    </div>
 
 
+    <div className="flex flex-wrap justify-center">
       {projects.map(function(project) {
         return (
-          <Div className="w400" key={uuidv1()}>
+          <Div className="" key={uuidv1()}>
             <Tilt className="Tilt" options={{ reverse: true, max: 25, scale: 1.05, speed: 900 }}>
               <div className="Tilt-inner" key={uuidv1()}>
                 <div className="ma2 bg-white">
@@ -50,6 +54,9 @@ const Ww4 = () => {
           </Div>
         );
       })}
+    </div>
+
+
     </div>
   );
 };
