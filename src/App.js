@@ -4,7 +4,7 @@ import TopNav from './TopNav/TopNav'
 import WelcomeBio from './WelcomeBio/WelcomeBio'
 import CoreTools from './CoreTools/CoreTools'
 import Footer from './Footer/Footer'
-import Ww4 from './Ww4';
+import Cards from './Cards';
 
 const App = ()=>{
     return (
@@ -14,7 +14,7 @@ const App = ()=>{
 
           <WelcomeBio/>
 
-          <Ww4 />
+          <Cards />
           
           <CoreTools />
 

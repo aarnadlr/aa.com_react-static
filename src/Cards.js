@@ -29,10 +29,10 @@ const Ww4 = () => {
                       <img src={project.image} alt="alt" className="w400" />
 
                       <div className="textContainer pa4">
-                        <p id="title" className="f3 mb0 fw6">
+                        <p id="title" className="f3 mt1 mb0 fw6">
                           {project.title}
                         </p>
-                        <p id="desc" className="f7 mid-gray lh-copy2">
+                        <p id="desc" className="f7 mid-gray lh-copy2 mt0">
                           {project.desc}
                         </p>
                         <p first="" className="tag bg-blue5">
