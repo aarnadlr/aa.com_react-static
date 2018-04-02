@@ -2,6 +2,7 @@ import React from "react";
 import Tilt from "react-tilt";
 import projects from "./projects.js";
 import styled from "styled-components";
+// import './css/entry.css';
 const uuidv1 = require("uuid/v1");
 
 const Div = styled.div`
@@ -28,7 +29,7 @@ const Ww4 = () => {
                       <img src={project.image} alt="alt" className="w400" />
 
                       <div className="textContainer pa4">
-                        <p id="title" className="f3">
+                        <p id="title" className="f3 mb0 fw6">
                           {project.title}
                         </p>
                         <p id="desc" className="f7 mid-gray lh-copy2">

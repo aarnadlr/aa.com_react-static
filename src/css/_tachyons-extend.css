@@ -847,3 +847,57 @@
   -webkit-transform: scale( .90 ); transform: scale( .90 ); }
 
  
+.rainbow1{
+  color: RGB(248, 12, 18);
+}
+.rainbow2{
+  color: RGB(238, 17, 0);
+}
+.rainbow3{
+  color: RGB(255, 51, 17);
+}
+.rainbow4{
+  color: RGB(255, 68, 34);
+}
+.rainbow5{
+  color: RGB(255, 102, 68);
+}
+.rainbow6{
+  color: RGB(255, 153, 51);
+}
+.rainbow7{
+  color: RGB(254, 174, 45);
+}
+.rainbow8{
+  color: RGB(204, 187, 51);
+}
+.rainbow9{
+  color: RGB(208, 195, 16);
+}
+.rainbow10{
+  color: RGB(170, 204, 34);
+}
+.rainbow11{
+  color: RGB(105, 208, 37);
+}
+.rainbow12{
+  color: RGB(34, 204, 170);
+}
+.rainbow13{
+  color: RGB(18, 189, 185);
+}
+.rainbow14{
+  color: RGB(17, 170, 187);
+}
+.rainbow15{
+  color: RGB(68, 68, 221);
+}
+.rainbow16{
+  color: RGB(51, 17, 187);
+}
+.rainbow17{
+  color: RGB(59, 12, 189);
+}
+.rainbow18{
+  color: RGB(68, 34, 153);
+}

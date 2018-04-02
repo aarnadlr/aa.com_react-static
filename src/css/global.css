@@ -6,3 +6,7 @@ body{
   font-family: "Poppins";
   background: rgb(0, 0, 71);
 }
+
+a, a:link, a:visited{
+  color: white;
+}

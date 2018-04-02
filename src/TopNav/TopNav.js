@@ -19,14 +19,14 @@ const Icon = styled.i`
 `
 const TopNav = () => (
   <Container className="white flex items-center justify-end">
-    <span className="flex items-center icon grow2">
+    <a href="#coretools" className="flex items-center icon grow2">
       <Icon className="fa fa-suitcase blue5" />
       <p className="mr4 text-shad-1">Tools</p>
-    </span>
-    <span className="flex items-center icon grow2">
+    </a>
+    <a href="#contact" className="flex items-center icon grow2">
       <Icon className="fa fa-envelope-o blue5" />
       <p className="mr4 text-shad-1">Contact</p>
-    </span>
+    </a>
   </Container>
 );
 
