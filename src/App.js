@@ -1,11 +1,19 @@
 import React from 'react';
+import './css/entry.css';
+import TopNav from './TopNav/TopNav'
+import WelcomeBio from './WelcomeBio/WelcomeBio'
 import Ww4 from './Ww4';
-// import Ww43Col from './Ww43Col';
 
 const App = ()=>{
     return (
       <div className="">
-        <Ww4 />
+
+          <TopNav />
+
+          <WelcomeBio/>
+
+          <Ww4 />
+
       </div>
     );
   }

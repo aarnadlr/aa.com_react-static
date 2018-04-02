@@ -1,47 +1,22 @@
-@import './tachyons.css';
-@import './_tachyons-extend.css';
-@import 'typography.css';
+
+@import './global.css';
+@import './variables.css';
+
 /* @import 'ibm-colors.css'; */
 /* @import "mrmrs-colors.css"; */
 @import './palx/palx-master.css';
 
-/* ROOT for VARS: */
-:root {
-}
+@import './tachyons.css';
+@import './_tachyons-extend.css';
+@import 'typography.css';
 
-*{
-  text-decoration: none;
-}
-body{
-  /* background: navy; */
-  font-family: "Poppins";
-  background: rgb(0, 0, 71);
-}
+/* MAIN STYLE RULES GO HERE */
+@import './app.css';
 
-#profile-pic{
-  width: 75px;
-  border-radius: 100px;
-}
-
-#title{
-  color: var(--blue7);
-}
-
-#topSection{
-  max-width: 600px;
-}
-
-.tag{
-  /* background: blue; */
-  color: white;
-  display: inline-block;
-  padding: 7px 10px 7px 10px;
-  border-radius: 3px;
-  font-size: 10px;
-  margin-top:20px;
-}
+@import './media-queries.css';
 
 
-p.tag:not([first]){
-  margin-left: 6px;
-}
+
+
+
+

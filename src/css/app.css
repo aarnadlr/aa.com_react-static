@@ -1,0 +1,29 @@
+
+
+#profile-pic{
+  width: 75px;
+  border-radius: 100px;
+}
+
+#title{
+  color: var(--blue7);
+}
+
+#topSection{
+  max-width: 555px;
+}
+
+.tag{
+  /* background: blue; */
+  color: white;
+  display: inline-block;
+  padding: 7px 10px 7px 10px;
+  border-radius: 3px;
+  font-size: 10px;
+  margin-top:20px;
+}
+
+
+p.tag:not([first]){
+  margin-left: 6px;
+}

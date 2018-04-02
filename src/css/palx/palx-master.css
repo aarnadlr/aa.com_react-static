@@ -266,6 +266,8 @@
 .fuschia8 { color: var(--fuschia8) }
 .fuschia9 { color: var(--fuschia9) }
 
+
+/* BACKGROUNDS */
 .bg-base { background-color: var(--base) }
 .bg-black { background-color: var(--black) }
 .bg-gray0 { background-color: var(--gray0) }
