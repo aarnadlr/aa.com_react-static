@@ -85,7 +85,7 @@ const projects = [
   },
   {
     key: 4,
-    image: 'http://ww3.aaronadler.com/assets/img/tradewind/Tradewind-800x400.gif',
+    image: 'https://ww3.aaronadler.com/assets/img/tradewind/Tradewind-800x400.gif',
     title: 'Tradewind Markets - Blockchain platform',
      desc: "Designed, built and coded Tradewind's complete web presence, as well as a coded animated logo treatment.",
     // TAGS:
@@ -170,7 +170,7 @@ const projects = [
   {
     key: 10,
     image: 'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/arss.gif',
-    title: 'ARsocialstudio™',
+    title: 'ARsocialstudio',
      desc: 'ARss is a microservice to build and deploy 3D Facebook Camera Effects for clients. 3D modeling, scripting and publication to the Camera Effects Platform. Click to view site.',
     // TAGS:
      tag1: 'html5',

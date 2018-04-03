@@ -31,7 +31,7 @@ const Ww4 = () => {
                       <img src={project.image} alt="alt" className="w400" />
 
                       <div className="textContainer pa4">
-                        <p id="title" className="f3b mt1 mb0 fw6 lh-title">
+                        <p id="title" className="f3c mt1 mb0 fw6 lh-title">
                           {project.title}
                         </p>
                         <p id="desc" className="f6b gray8 lh-copy3 mt3 mb4 space">
