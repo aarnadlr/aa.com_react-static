@@ -44,7 +44,7 @@ const projects = [
     key: 1,
     image: 'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/ibm/IBM-rect.jpg',
     // image: require('./images/ibm.png'),
-    title: 'IBM Partners website',
+    title: 'IBM Partners',
     desc: "UI design and prototype development for IBM Partners, IBM's business services portal. Click to view the project.",
     // TAGS:
     tag1: 'Sketch',
@@ -73,7 +73,7 @@ const projects = [
   {
     key: 3,
     image: 'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/motet3b.jpg',
-    title: 'Motet',
+    title: 'Motet - Music App UI',
      desc: 'Mobile music app with a minimal, graphic interface. Light scheme to contrast against Spotify. Click to view.',
     // TAGS:
      tag1: 'sketch',
@@ -170,7 +170,7 @@ const projects = [
   {
     key: 10,
     image: 'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/arss.gif',
-    title: 'ARsocialstudio™',
+    title: 'ARsocialstudio',
      desc: 'ARss is a microservice to build and deploy 3D Facebook Camera Effects for clients. 3D modeling, scripting and publication to the Camera Effects Platform. Click to view site.',
     // TAGS:
      tag1: 'html5',
