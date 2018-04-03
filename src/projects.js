@@ -109,10 +109,7 @@ const projects = [
      tag2: 'illustrator',
      tag3: 'photoshop',
      tag4: 'svg',
-    //  tag5: 'bodymovin',
-    //  tag6: 'illustrator',
-    //  tag7: 'svg',
-         // HREF LINK
+    // HREF LINK
     link: "https://www.behance.net/gallery/61048837/Verbal-Messaging-App-Brand-Identity-and-UI-Design"
   },
   {
@@ -125,11 +122,8 @@ const projects = [
      tag2: 'CSS3',
      tag3: 'javascript',
      tag4: 'api',
-    //  tag5: 'bodymovin',
-    //  tag6: 'illustrator',
-    //  tag7: 'svg',
          // HREF LINK
-    link: "React application providing a zero-click YouTube search interface. Uses YouTube DataAPI v3. Click to view."
+    link: "https://youtubezero.herokuapp.com/"
   },
   {
     key: 7,
@@ -145,7 +139,7 @@ const projects = [
     //  tag6: 'illustrator',
     //  tag7: '',
     // HREF LINK
-    link: " "
+    link: "https://dribbble.com/shots/3939152-Google-Play-All-Together-Beauty"
   },
   {
     key: 8,
@@ -157,11 +151,8 @@ const projects = [
      tag2: 'blender3D',
      tag3: 'photoshop',
      tag4: 'aftereffects',
-    //  tag5: 'bodymovin',
-    //  tag6: 'illustrator',
-    //  tag7: 'svg',
      // HREF LINK
-     link: " "
+     link: "https://www.facebook.com/160758384681784/videos/166745714083051"
   },
   {
     key: 9,
@@ -173,9 +164,8 @@ const projects = [
      tag2: 'aftereffects',
      tag3: 'javascript',
      tag4: 'lottie',
-    //  tag5: 'bodymovin',
-    //  tag6: 'illustrator',
-    //  tag7: 'svg',
+     // HREF LINK
+     link: "https://codepen.io/aaronadler/pen/OzLYYM"
   },
   {
     key: 10,
@@ -187,9 +177,8 @@ const projects = [
      tag2: 'css3',
      tag3: 'javascript',
      tag4: 'gulp',
-    //  tag5: 'bodymovin',
-    //  tag6: 'illustrator',
-    //  tag7: 'svg',
+     // HREF LINK
+     link: "https://thearss.com/"
   },
   {
     key: 11,
@@ -201,6 +190,8 @@ const projects = [
      tag2: 'blender3D',
      tag3: 'Photoshop',
      tag4: 'aftereffects',
+      // HREF LINK
+      link: "https://www.facebook.com/160758384681784/videos/162009941223295/"
   },
   {
     key: 12,
@@ -211,7 +202,9 @@ const projects = [
      tag1: 'sketch',
      tag2: 'illustrator',
      tag3: 'svg',
-     tag4: 'photoshop'
+     tag4: 'photoshop',
+      // HREF LINK
+    link: "https://dribbble.com/shots/3998425-Arthritis-Foundation-graphic"
   },
   {
     key: 13,
@@ -222,10 +215,9 @@ const projects = [
      tag1: 'sketch',
      tag2: 'illustrator',
      tag3: 'photoshop',
-     tag4: 'svg'
-    //  tag5: 'bodymovin',
-    //  tag6: 'illustrator',
-    //  tag7: 'svg',
+     tag4: 'svg',
+     // HREF LINK
+     link: "https://dribbble.com/shots/3440241-Facebook-Stories-Silicon-Valley"
   },
   {
     key: 14,
@@ -236,7 +228,9 @@ const projects = [
      tag1: 'concept',
      tag2: 'film/tv',
      tag3: 'art direction',
-     tag4: 'creative'
+     tag4: 'creative',
+      // HREF LINK
+      link: "https://vimeo.com/8253231"
   },
   {
     key: 15,
@@ -248,6 +242,8 @@ const projects = [
     tag2: 'film/tv',
     tag3: 'art direction',
     tag4: 'creative',
+         // HREF LINK
+         link: "https://vimeo.com/8285842"
   },
   {
     key: 16,
@@ -259,6 +255,8 @@ const projects = [
      tag2: 'aftereffects',
      tag3: 'lottie',
      tag4: 'svg',
+    // HREF LINK
+    link: "https://dribbble.com/shots/3988978-Arc-Teryx-Animated-Lockup"
 
   },
   {
@@ -271,6 +269,8 @@ const projects = [
     tag2: 'photoshop',
     tag3: 'illustrator',
     tag4: 'concept',
+         // HREF LINK
+         link: "https://dribbble.com/shots/3991223-HBO-Curb-Your-Enthusiasm-Season-9-Pret-ty-Good"
   },
   {
     key: 18,
@@ -282,18 +282,22 @@ const projects = [
     tag2: 'photoshop',
     tag3: 'illustrator',
     tag4: 'concept',
+    // HREF LINK
+    link: "https://dribbble.com/shots/3991227--SKI-NYC"
   },
-  {
-    key: 19,
-    image: 'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/thumbs2-rect.jpg',
-    title: 'DirecTV "Thumbs"',
-     desc: 'Creative concept to promote the breadth of DirecTV channels and services. Agency: BBDO New York',
-    // TAGS:
-    tag1: 'sketch',
-    tag2: 'photoshop',
-    tag3: 'illustrator',
-    tag4: 'concept',
-  },
+  // {
+  //   key: 19,
+  //   image: 'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/thumbs2-rect.jpg',
+  //   title: 'DirecTV "Thumbs"',
+  //    desc: 'Creative concept to promote the breadth of DirecTV channels and services. Agency: BBDO New York',
+  //   // TAGS:
+  //   tag1: 'sketch',
+  //   tag2: 'photoshop',
+  //   tag3: 'illustrator',
+  //   tag4: 'concept',
+  //   // HREF LINK
+  //   link: ""
+  // },
   {
     key: 20,
     image: 'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/noah-rect.jpg',
@@ -304,51 +308,69 @@ const projects = [
     tag2: 'film/tv',
     tag3: 'art direction',
     tag4: 'creative',
+    // HREF LINK
+    link: "https://vimeo.com/95035102"
   },
-  {
-    key: 21,
-    image: 'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/absolut-rect.jpg',
-    title: 'Absolut Vodka "In An Absolut World"',
-     desc: 'Creative concept for Absolut Vodka. Agency: TBWA Chiat New York',
-    // TAGS:
-    tag1: 'sketch',
-    tag2: 'photoshop',
-    tag3: 'illustrator',
-    tag4: 'concept',
-  },
-  {
-    key:22,
-    image: 'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/guinness-rect.jpg',
-    title: 'Guinness "Good Things Come"',
-     desc: 'Creative concept to promote Guinness. Agency: AMV BBDO London',
-    // TAGS:
-    tag1: 'sketch',
-    tag2: 'photoshop',
-    tag3: 'illustrator',
-    tag4: 'concept',
-  },
-  {
-    key: 23,
-    image: 'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/lgc-rect.jpg',
-    title: 'London Graphic Centre',
-     desc: 'Creative concept to promote London Graphic Centre paints. Agency: AMV BBDO London',
-    // TAGS:
-    tag1: 'sketch',
-    tag2: 'photoshop',
-    tag3: 'illustrator',
-    tag4: 'concept',
-  },
-  {
-    key: 24,
-    image: 'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/snickers-rect.jpg',
-    title: 'Snickers "What Are You Hungry For"',
-     desc: 'Creative concept to promote Snickers partnership with the NFL. Agency: BBDO New York',
-    // TAGS:
-     tag1: 'sketch',
-     tag2: 'photoshop',
-     tag3: 'illustrator',
-     tag4: 'concept',
-  },
+  // {
+  //   key: 21,
+  //   image: 'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/absolut-rect.jpg',
+  //   title: 'Absolut Vodka "In An Absolut World"',
+  //    desc: 'Creative concept for Absolut Vodka. Agency: TBWA Chiat New York',
+  //   // TAGS:
+  //   tag1: 'sketch',
+  //   tag2: 'photoshop',
+  //   tag3: 'illustrator',
+  //   tag4: 'concept',
+  //   // HREF LINK
+  //   link: ""
+  // },
+
+
+  // {
+  //   key:22,
+  //   image: 'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/guinness-rect.jpg',
+  //   title: 'Guinness "Good Things Come"',
+  //    desc: 'Creative concept to promote Guinness. Agency: AMV BBDO London',
+  //   // TAGS:
+  //   tag1: 'sketch',
+  //   tag2: 'photoshop',
+  //   tag3: 'illustrator',
+  //   tag4: 'concept',
+  //        // HREF LINK
+  //        link: ""
+  // },
+
+
+  // {
+  //   key: 23,
+  //   image: 'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/lgc-rect.jpg',
+  //   title: 'London Graphic Centre',
+  //    desc: 'Creative concept to promote London Graphic Centre paints. Agency: AMV BBDO London',
+  //   // TAGS:
+  //   tag1: 'sketch',
+  //   tag2: 'photoshop',
+  //   tag3: 'illustrator',
+  //   tag4: 'concept',
+  //   // HREF LINK
+  //   link: ""
+  // },
+
+
+  // {
+  //   key: 24,
+  //   image: 'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/snickers-rect.jpg',
+  //   title: 'Snickers "What Are You Hungry For"',
+  //    desc: 'Creative concept to promote Snickers partnership with the NFL. Agency: BBDO New York',
+  //   // TAGS:
+  //    tag1: 'sketch',
+  //    tag2: 'photoshop',
+  //    tag3: 'illustrator',
+  //    tag4: 'concept',
+  //     // HREF LINK
+  //     link: ""
+  // },
+
+
   {
     key: 25,
     image: 'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/hermes-rev.gif',
@@ -359,6 +381,8 @@ const projects = [
      tag2: 'aftereffects',
      tag3: 'lottie',
      tag4: 'svg',
+     // HREF LINK
+     link: ""
   }
 
 ]
