@@ -18,6 +18,8 @@ const Ww4 = () => {
       <div className="flex flex-wrap justify-center">
         {projects.map(function(project) {
           return (
+
+
             <Div className="" key={uuidv1()}>
               <Tilt
                 className="Tilt"
@@ -29,24 +31,25 @@ const Ww4 = () => {
                       <img src={project.image} alt="alt" className="w400" />
 
                       <div className="textContainer pa4">
-                        <p id="title" className="f3 mt1 mb0 fw6">
+                        <p id="title" className="f3b mt1 mb0 fw6">
                           {project.title}
                         </p>
-                        <p id="desc" className="f7 mid-gray lh-copy2 mt0">
+                        <p id="desc" className="f6b gray8 lh-copy3 mt2 mb4 space">
                           {project.desc}
                         </p>
-                        <p first="" className="tag bg-blue5">
-                          {project.tag1}
-                        </p>
-                        <p className="tag bg-blue6">{project.tag2}</p>
-                        <p className="tag bg-indigo7">{project.tag3}</p>
-                        <p className="tag bg-violet7">{project.tag4}</p>
+                        <p first="" className="tag bg-blue5">{project.tag1}</p>
+                        <p         className="tag bg-blue6">{project.tag2}</p>
+                        <p         className="tag bg-indigo7">{project.tag3}</p>
+                        <p         className="tag bg-violet7">{project.tag4}</p>
+                        {/* <p         className="tag bg-fuschia6">{project.tag5}</p> */}
                       </div>
                     </a>
                   </div>
                 </div>
               </Tilt>
             </Div>
+
+
           );
         })}
       </div>

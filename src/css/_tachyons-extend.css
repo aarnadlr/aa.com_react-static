@@ -18,6 +18,8 @@
    .f2c { font-size: 1.8rem; }
    .f2d { font-size: 1.6rem; }
  .f3 { font-size: 1.5rem; }
+ .f3b { font-size: 1.43rem; }
+ .f3c { font-size: 1.34rem; }
  .f4 { font-size: 1.25rem; }
  .f5 { font-size: 1rem; }
  .f6 { font-size: .875rem; }
@@ -413,6 +415,9 @@
   .f2b-ns { font-size: 2rem; }
   .f2c-ns { font-size: 1.8rem; }
   .f2d-ns { font-size: 1.6rem; }
+
+  .f3b-ns { font-size: 1.43rem; }
+  .f3c-ns { font-size: 1.34rem; }
 
   .f6b-ns { font-size: .85rem; }
   .f6c-ns { font-size: .8rem; }
@@ -900,4 +905,9 @@
 }
 .rainbow18{
   color: RGB(68, 34, 153);
+}
+
+
+.space{
+  letter-spacing: .02rem;
 }
