@@ -27,14 +27,14 @@ const Ww4 = () => {
               >
                 <div className="Tilt-inner" key={uuidv1()}>
                   <div className="ma2 bg-white">
-                    <a href={project.link}>
+                    <a target="_blank" href={project.link}>
                       <img src={project.image} alt="alt" className="w400" />
 
                       <div className="textContainer pa4">
-                        <p id="title" className="f3b mt1 mb0 fw6">
+                        <p id="title" className="f3b mt1 mb0 fw6 lh-title">
                           {project.title}
                         </p>
-                        <p id="desc" className="f6b gray8 lh-copy3 mt2 mb4 space">
+                        <p id="desc" className="f6b gray8 lh-copy3 mt3 mb4 space">
                           {project.desc}
                         </p>
                         <p first="" className="tag bg-blue5">{project.tag1}</p>
