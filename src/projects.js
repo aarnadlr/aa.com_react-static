@@ -129,7 +129,7 @@ const projects = [
     key: 7,
     image: 'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/google-play-17-rect.jpg',
     title: 'Google Play',
-     desc: 'Campaign concept and design to promote Google Play. Click to view.',
+     desc: 'Campaign concept and design to promote movies, music and book titles on Google Play. Click to view.',
     // TAGS:
      tag1: 'sketch',
      tag2: 'illustrator',
@@ -145,7 +145,7 @@ const projects = [
     key: 8,
     image: 'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/daftpunk-320.gif',
     title: 'Daft Punk - Facebook Camera Effect AR',
-     desc: 'The Daft Punk "Guy Manuel" Helmet. Available as a wearable Camera Effect. Click to view the video and experience the Camera Effect on your mobile device.',
+     desc: 'The Daft Punk Helmet as a wearable Camera Effect. Click to view the video and experience the Camera Effect on mobile.',
     // TAGS:
      tag1: 'ARStudio',
      tag2: 'blender3D',

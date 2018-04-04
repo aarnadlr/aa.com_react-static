@@ -23,7 +23,7 @@ const Footer = () => (
 
 
   <div className='f7  flex justify-center pt5 pb5'>
-    <p className='w-40 tc lh-copy2'>This site built with React and Flexbox. Rendered statically with react-snapshot.</p>
+    <p className='w-70 tc lh-copy2'>This site built with <span className="teal6">React</span> and <span className="cyan5">Flexbox</span>. Rendered statically with <span className="violet5">react-snapshot</span>.</p>
   </div>
   </footer>
 
