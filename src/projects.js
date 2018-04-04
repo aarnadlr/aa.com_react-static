@@ -58,7 +58,7 @@ const projects = [
     key: 2,
     image: 'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/patagonia-ww3.gif',
     title: 'Patagonia Provisions',
-     desc: "Animated sequence for Patagonia Provisions, Patagonia's line of foods and recipes. Created in After Effects and converted to JSON via Lottie. Click to view.",
+     desc: "Animated sequence for Patagonia Provisions, Patagonia's line of foods and recipes. Click to view.",
     // TAGS:
     //  tag1: 'sketch',
     //  tag2: 'CSS3',

@@ -1,7 +1,5 @@
 import React from "react";
 import "./CoreTools.css";
-// import $ from 'jquery';
-// import '../vendor/smoothscroll';
 
 const CoreTools = () => (
   <div id="coretools" className="flex container">

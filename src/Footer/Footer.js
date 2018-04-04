@@ -3,7 +3,7 @@ import './Footer.css';
 import '../css/entry.css';
 
 const Footer = () => (
-<footer className="pb6 lightest-blue">
+<footer className="lightest-blue">
 
     {/* <!-- THANK YOU --> */}
     <div id="contact" className="container container--martop70">
@@ -21,6 +21,10 @@ const Footer = () => (
       </a>
     </div>
 
+
+  <div className='f7  flex justify-center pt5 pb5'>
+    <p className='w-40 tc lh-copy2'>This site built with React and Flexbox. Rendered statically with react-snapshot.</p>
+  </div>
   </footer>
 
 );
