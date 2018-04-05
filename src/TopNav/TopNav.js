@@ -29,14 +29,14 @@ const TopNav = () => (
   <Container className="white flex items-center justify-end">
 
 
-      <Scrollchor  animate={{offset: 50, duration: 2000, easing: easeInOutQuart }} to="#coretools" className="">
+      <Scrollchor  animate={{offset: 50, duration: 1400, easing: easeInOutQuart }} to="#coretools" className="">
         <div className="flex items-center icon grow2">
         <Icon className="fa fa-suitcase blue5" />
         <p className="mr4 text-shad-1">Tools</p>
         </div>
       </Scrollchor>
 
-      <Scrollchor  animate={{offset: -350, duration: 1600, easing: easeInOutQuart }} to="#contact" className="">
+      <Scrollchor  animate={{offset: -350, duration: 1400, easing: easeInOutQuart }} to="#contact" className="">
         <div className="flex items-center icon grow2">
           <Icon className="fa fa-envelope-o blue5" />
           <p className="mr4 text-shad-1">Contact</p>

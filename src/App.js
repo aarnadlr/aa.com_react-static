@@ -4,7 +4,7 @@ import TopNav from './TopNav/TopNav'
 import WelcomeBio from './WelcomeBio/WelcomeBio'
 import CoreTools from './CoreTools/CoreTools'
 import Footer from './Footer/Footer'
-import Cards from './Cards';
+import Cards from './Cards/Cards';
 
 const App = ()=>{
     return (

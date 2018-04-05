@@ -1,8 +1,9 @@
 import React from "react";
 import Tilt from "react-tilt";
-import projects from "./projects.js";
+import projects from "../projects";
 import styled from "styled-components";
-import './css/entry.css';
+import './Cards.css';
+import '../css/entry.css';
 const uuidv1 = require("uuid/v1");
 
 const Div = styled.div`
@@ -20,7 +21,7 @@ const Img = styled.img`
 `
 // --------- END STYLED-COMPONENTS ---------
 
-const Ww4 = () => {
+const Cards = () => {
   return (
 
 
@@ -38,17 +39,27 @@ const Ww4 = () => {
                     <a target="_blank" href={project.link}>
                       <Img  src={project.image} alt="alt" className="w400" />
 
-                      <Div2 className="textContainer pa4">
+                      <Div2 className="textContainer pa4 lh-copy3">
                         <p id="title" className="f3c mt1 mb0 fw6 lh-title">
                           {project.title}
                         </p>
-                        <p id="desc" className="f6b gray8 lh-copy3 mt3 mb4 space">
+                        <p id="desc" className="f6b blue7  mt3 mb4 space">
                           {project.desc}
                         </p>
-                        <p first="" className="tag bg-blue5">{project.tag1}</p>
-                        <p         className="tag bg-blue6">{project.tag2}</p>
-                        <p         className="tag bg-indigo7">{project.tag3}</p>
-                        <p         className="tag bg-violet7">{project.tag4}</p>
+
+                        <p id="" className="f6 mt1 blue7 mb2 fw6">
+                          My project role :
+                        </p>
+                        <p id="" className="f6 mt1 blue7">
+                          {project.role} 
+                        </p>
+                        <p id="title" className="f6 mt4 mb0 black fw6">
+                          My dev stack used:
+                        </p>
+                        <p first="" className="mt0 tag bg-blue5">{project.tag1}</p>
+                        <p         className="mt0 tag bg-blue6">{project.tag2}</p>
+                        <p         className="mt0 tag bg-indigo7">{project.tag3}</p>
+                        <p         className="mt0 tag bg-violet7">{project.tag4}</p>
                       </Div2>
                     </a>
                   </div>
@@ -62,4 +73,4 @@ const Ww4 = () => {
   );
 };
 
-export default Ww4;
+export default Cards;
