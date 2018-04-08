@@ -14,6 +14,12 @@ const Div2 = styled.div`
   /* flex: 1; */
 `;
 
+const Completed = styled.p`
+  border: 1px solid blue;
+  margin-top: 2.7rem;
+
+`;
+
 
 const Img = styled.img`
   border-top-right-radius: 4px;
@@ -33,7 +39,7 @@ const Cards = () => {
             <Div className="" key={uuidv1()}>
               <Tilt
                 className="Tilt"
-                options={{ reverse: true, max: 25, scale: 1.05, speed: 900 }}
+                options={{ reverse: true, max: 12, scale: 1.03, speed: 900 }}
               >
                   <div className="br2 ma2 bg-white">
                     <a target="_blank" href={project.link}>
@@ -53,13 +59,18 @@ const Cards = () => {
                         <p id="" className="f6 mt1 blue7">
                           {project.role} 
                         </p>
-                        <p id="title" className="f6 mt4 mb0 black fw6">
+                        <p id="" className="f6 mt4 mb0 blue7 fw6">
                           My dev stack used:
                         </p>
                         <p first="" className="mt0 tag bg-blue5">{project.tag1}</p>
                         <p         className="mt0 tag bg-blue6">{project.tag2}</p>
                         <p         className="mt0 tag bg-indigo7">{project.tag3}</p>
                         <p         className="mt0 tag bg-violet7">{project.tag4}</p>
+                        
+                        <Completed id="" className="dib f7 blue7 ph3 pv2">
+                          Completed: &nbsp;<span className="fw7">{project.year}</span>
+                        </Completed>
+
                       </Div2>
                     </a>
                   </div>

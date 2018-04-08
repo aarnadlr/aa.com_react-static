@@ -47,7 +47,7 @@ const projects = [
     title: 'IBM Partners',
     desc: "UI design and prototype development for IBM Partners, IBM's business services portal. Click to view the project.",
 
-    role: "UX wireframes, UI design, and client-side components such as a CSS3 sticky header and incrementing data counts using javascript.",
+    role: "UX wireframes, UI design, and client-side coded components using CSS3 and javascript. Implemented IBM’s Northstar and Duo design systems, including typography, .clr palettes, JSON type styles, grids and column layouts.",
 
     // techstack: ""
     // TAGS:
@@ -55,11 +55,87 @@ const projects = [
     tag2: 'html5',
     tag3: 'css3',
     tag4: 'javascript',
+
+    year: 2018,
         // HREF LINK
     link: "./ibm.html"
   },
+  
   {
     key: 2,
+    image: 'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/motet3b.jpg',
+    title: 'Motet - Music App UI',
+     desc: 'Mobile music app with a minimal graphic interface. Light scheme to contrast against Spotify. Click to view.',
+
+     role: "Developed the brand identity with Photoshop and Illustrator. Created the UI design of all screens at 1x with Sketch.",
+    // TAGS:
+     tag1: 'sketch',
+     tag2: 'illustrator',
+     tag3: 'photoshop',
+     tag4: 'svg',
+
+     year: 2017,
+         // HREF LINK
+    link: "https://www.behance.net/gallery/60987045/Motet-Music-Application-Identity-and-UI-Design"
+  },
+  {
+    key: 5,
+    image: 'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/youtubezero3-rect.gif',
+    title: 'YouTube Zero',
+     desc: 'React application providing a zero-click YouTube search interface. Uses YouTube DataAPI v3. Click to view.',
+
+     role: 'Built the entire application in React. Used an API key to access YouTube Data API v3. Designed the components using styled-components and Tachyons.',
+    // TAGS:
+     tag1: 'React',
+     tag2: 'CSS3',
+     tag3: 'javascript',
+     tag4: 'youtube api',
+
+     year: 2017,
+         // HREF LINK
+    link: "https://youtubezero.herokuapp.com/"
+  },
+  {
+    key: 3,
+    image: 'https://ww3.aaronadler.com/assets/img/tradewind/Tradewind-800x400.gif',
+    title: 'Tradewind Markets - Blockchain platform',
+     desc: "Designed, built and coded Tradewind's web presence, as well as a coded animated logo treatment.",
+
+     role: "Built the multipage site using HTML5, CSS3, Flexbox, Sass, Javascript and Gulp. Animated the logo with Greensock/GSAP TweenMax. Handed off to internal engineers for deployment.",
+    // TAGS:
+    //  tag1: 'sketch',
+     tag1: 'html5',
+     tag2: 'css3',
+     tag3: 'javascript',
+     tag4: 'gulp',
+
+     year: 2018,
+    //  tag6: 'sass/scss',
+    //  tag7: 'svg',
+         // HREF LINK
+    link: "https://www.behance.net/gallery/63693141/Tradewind-Markets-Blockchain-Technology-Website"
+  },
+  {
+    key: 4,
+    image: 'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/verbal4.jpg',
+    title: 'Verbal - Messaging UI',
+     desc: 'Single-purpose messaging app without marketplaces, ads, or other add-ons to encourage usage. Click to view.',
+
+     role: "Developed the brand identity with Photoshop and Illustrator. Created the UI design of all screens at 1x with Sketch.",
+    // TAGS:
+     tag1: 'sketch',
+     tag2: 'illustrator',
+     tag3: 'photoshop',
+     tag4: 'svg',
+
+     year: 2016,
+    // HREF LINK
+    link: "https://www.behance.net/gallery/61048837/Verbal-Messaging-App-Brand-Identity-and-UI-Design"
+  },
+  
+
+  {
+    key: 6,
     image: 'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/patagonia-ww3.gif',
     title: 'Patagonia Provisions',
      desc: "Animated sequence for Patagonia Provisions, Patagonia's line of foods and recipes. Click to view.",
@@ -73,84 +149,26 @@ const projects = [
      tag3: 'lottie',
      tag4: 'illustrator',
      tag5: 'svg',
+
+     year: 2017,
          // HREF LINK
     link: "https://codepen.io/aaronadler/pen/vWoVoN"
   },
-  {
-    key: 3,
-    image: 'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/motet3b.jpg',
-    title: 'Motet - Music App UI',
-     desc: 'Mobile music app with a minimal graphic interface. Light scheme to contrast against Spotify. Click to view.',
 
-     role: "Created the brand identity with Pshop/Illustrator. UI design of all screens at 1x with Sketch.",
-    // TAGS:
-     tag1: 'sketch',
-     tag2: 'illustrator',
-     tag3: 'photoshop',
-     tag4: 'svg',
-         // HREF LINK
-    link: "https://www.behance.net/gallery/60987045/Motet-Music-Application-Identity-and-UI-Design"
-  },
-  {
-    key: 4,
-    image: 'https://ww3.aaronadler.com/assets/img/tradewind/Tradewind-800x400.gif',
-    title: 'Tradewind Markets - Blockchain platform',
-     desc: "Designed, built and coded Tradewind's web presence, as well as a coded animated logo treatment.",
-
-     role: "Coded the entire site using HTML5, CSS3, Flexbox, Sass, Javascript and Gulp. Animated the logo with Greensock/GSAP TweenMax. Handed off to client for deployment.",
-    // TAGS:
-    //  tag1: 'sketch',
-     tag1: 'html5',
-     tag2: 'css3',
-     tag3: 'javascript',
-     tag4: 'gulp',
-    //  tag6: 'sass/scss',
-    //  tag7: 'svg',
-         // HREF LINK
-    link: "https://www.behance.net/gallery/63693141/Tradewind-Markets-Blockchain-Technology-Website"
-  },
-  {
-    key: 5,
-    image: 'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/verbal4.jpg',
-    title: 'Verbal - Messaging UI',
-     desc: 'Single-purpose messaging app without marketplaces, ads, or other add-ons to encourage usage. Click to view.',
-
-     role: "Created the brand identity with Pshop/Illustrator. UI design of all screens at 1x with Sketch.",
-    // TAGS:
-     tag1: 'sketch',
-     tag2: 'illustrator',
-     tag3: 'photoshop',
-     tag4: 'svg',
-    // HREF LINK
-    link: "https://www.behance.net/gallery/61048837/Verbal-Messaging-App-Brand-Identity-and-UI-Design"
-  },
-  {
-    key: 6,
-    image: 'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/youtubezero3-rect.gif',
-    title: 'YouTube Zero',
-     desc: 'React application providing a zero-click YouTube search interface. Uses YouTube DataAPI v3. Click to view.',
-
-     role: "tba",
-    // TAGS:
-     tag1: 'React',
-     tag2: 'CSS3',
-     tag3: 'javascript',
-     tag4: 'youtube api',
-         // HREF LINK
-    link: "https://youtubezero.herokuapp.com/"
-  },
   {
     key: 7,
     image: 'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/google-play-17-rect.jpg',
     title: 'Google Play',
      desc: 'Campaign concept and design to promote movies, music and book titles on Google Play. Click to view.',
 
-     role: "tba",
+     role: "I worked with a writer to develop the creative concept. Designed the layouts with Sketch and Adobe Creative Suite.",
     // TAGS:
      tag1: 'sketch',
      tag2: 'illustrator',
      tag3: 'photoshop',
      tag4: 'svg',
+
+     year: 2014,
     //  tag5: 'bodymovin',
     //  tag6: 'illustrator',
     //  tag7: '',
@@ -163,12 +181,14 @@ const projects = [
     title: 'Daft Punk - Facebook Camera Effect AR',
      desc: 'The Daft Punk Helmet as a wearable Camera Effect. Click to view the video and experience the Camera Effect on mobile.',
 
-     role: "tba",
+     role: "Received the helmet as a .obj 3D model. Added textures, materials and lighting in Blender and ARStudio. Created the background animations in After Effects. Configured the object to a face-tracker in ARStudio.",
     // TAGS:
-     tag1: 'ARStudio',
+     tag1: 'ARstudio',
      tag2: 'blender3D',
      tag3: 'photoshop',
      tag4: 'aftereffects',
+
+     year: 2017,
      // HREF LINK
      link: "https://www.facebook.com/160758384681784/videos/166745714083051"
   },
@@ -184,6 +204,8 @@ const projects = [
      tag2: 'aftereffects',
      tag3: 'javascript',
      tag4: 'lottie',
+
+     year: 2017,
      // HREF LINK
      link: "https://codepen.io/aaronadler/pen/OzLYYM"
   },
@@ -199,6 +221,8 @@ const projects = [
      tag2: 'css3',
      tag3: 'javascript',
      tag4: 'gulp',
+
+     year: 2017,
      // HREF LINK
      link: "https://thearss.com/"
   },
@@ -208,12 +232,14 @@ const projects = [
     title: 'Museum of Ice Cream - Facebook Camera Effect',
      desc: 'Interactive AR 3D-based Facebook Camera Effect for the Museum of Ice Cream. Click to view the video and Camera Effect on your mobile device.',
 
-     role: "tba",
+     role: "Received the ice cream scoops, cone and peppermints as .obj 3D models. Added colors, textures, and materials in ARStudio. Created the typography and background animations in After Effects. Configured the objects to a face-tracker in ARStudio.",
     // TAGS:
      tag1: 'ARStudio',
      tag2: 'blender3D',
      tag3: 'Photoshop',
      tag4: 'aftereffects',
+
+     year: 2017,
       // HREF LINK
       link: "https://www.facebook.com/160758384681784/videos/162009941223295/"
   },
@@ -229,6 +255,8 @@ const projects = [
      tag2: 'illustrator',
      tag3: 'svg',
      tag4: 'photoshop',
+
+     year: 2011,
       // HREF LINK
     link: "https://dribbble.com/shots/3998425-Arthritis-Foundation-graphic"
   },
@@ -244,6 +272,8 @@ const projects = [
      tag2: 'illustrator',
      tag3: 'photoshop',
      tag4: 'svg',
+
+     year: 2016,
      // HREF LINK
      link: "https://dribbble.com/shots/3440241-Facebook-Stories-Silicon-Valley"
   },
@@ -260,6 +290,8 @@ const projects = [
      tag2: 'film/tv',
      tag3: 'art direction',
      tag4: 'creative',
+
+     year: 2007,
       // HREF LINK
       link: "https://vimeo.com/8253231"
   },
@@ -275,6 +307,8 @@ const projects = [
     tag2: 'film/tv',
     tag3: 'art direction',
     tag4: 'creative',
+
+    year: 2004,
          // HREF LINK
          link: "https://vimeo.com/8285842"
   },
@@ -290,6 +324,8 @@ const projects = [
      tag2: 'aftereffects',
      tag3: 'lottie',
      tag4: 'svg',
+
+     year: 2016,
     // HREF LINK
     link: "https://dribbble.com/shots/3988978-Arc-Teryx-Animated-Lockup"
 
@@ -306,6 +342,8 @@ const projects = [
     tag2: 'photoshop',
     tag3: 'illustrator',
     tag4: 'concept',
+
+    year: 2017,
          // HREF LINK
          link: "https://dribbble.com/shots/3991223-HBO-Curb-Your-Enthusiasm-Season-9-Pret-ty-Good"
   },
@@ -321,6 +359,8 @@ const projects = [
     tag2: 'photoshop',
     tag3: 'illustrator',
     tag4: 'concept',
+
+    year: 2015,
     // HREF LINK
     link: "https://dribbble.com/shots/3991227--SKI-NYC"
   },
@@ -349,23 +389,11 @@ const projects = [
     tag2: 'film/tv',
     tag3: 'art direction',
     tag4: 'creative',
+
+    year: 2011,
     // HREF LINK
     link: "https://vimeo.com/95035102"
   },
-  // {
-  //   key: 21,
-  //   image: 'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/absolut-rect.jpg',
-  //   title: 'Absolut Vodka "In An Absolut World"',
-  //    desc: 'Creative concept for Absolut Vodka. Agency: TBWA Chiat New York',
-  //   // TAGS:
-  //   tag1: 'sketch',
-  //   tag2: 'photoshop',
-  //   tag3: 'illustrator',
-  //   tag4: 'concept',
-  //   // HREF LINK
-  //   link: ""
-  // },
-
 
   // {
   //   key:22,
@@ -424,6 +452,8 @@ const projects = [
      tag2: 'aftereffects',
      tag3: 'lottie',
      tag4: 'svg',
+
+     year: 2017,
      // HREF LINK
      link: ""
   }
