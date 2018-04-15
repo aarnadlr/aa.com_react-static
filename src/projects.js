@@ -1,42 +1,4 @@
-
-// images array:
-// const images = [
-//   // 0
-//   'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/ibm/IBM-rect.jpg',
-//   'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/patagonia-ww3.gif',
-//   'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/motet3b.jpg',
-//   'http://ww3.aaronadler.com/assets/img/tradewind/Tradewind-800x400.gif',
-//   'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/verbal4.jpg',
-//   // 5
-//   'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/youtubezero3-rect.gif',
-//   'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/google-play-17-rect.jpg',
-//   'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/daftpunk-320.gif',
-//   'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/cotton-bur-rect.gif',
-//   'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/arss.gif',
-//   // ^^^ 10
-//   'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/moic3.gif',
-//   'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/arthritis-rect.jpg',
-//   'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/facebook-rect.jpg',
-//   'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/sweeps-rect.jpg',
-//   'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/wind-rect.jpg',
-//   // ^^^ 15
-//   'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/arcteryx2.jpg',
-//   'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/curb-your.gif',
-//   'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/ski-nyc.gif',
-//   'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/thumbs2-rect.jpg',
-//   'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/noah-rect.jpg',
-//   // ^^^ 20
-//   'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/holiday-rect2.gif',
-//   'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/lincoln-rect.jpg',
-//   'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/hail-rect.jpg',
-//   'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/guinness-rect.jpg',
-//   'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/lgc-rect.jpg',
-//   // ^^^ 25
-//   'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/snickers-rect.jpg',
-//   'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/hermes-rev.gif',
-//   'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/absolut-rect.jpg',
-//   // 28 TOTAL
-// ];
+import kith from './images/kith-rect3.jpg';
 
 
 const projects = [
@@ -52,8 +14,8 @@ const projects = [
     // techstack: ""
     // TAGS:
     tag1: 'Sketch',
-    tag2: 'html5',
-    tag3: 'css3',
+    tag2: 'Html5',
+    tag3: 'CSS3',
     tag4: 'javascript',
 
     year: 2018,
@@ -63,16 +25,35 @@ const projects = [
   
   {
     key: 2,
+    image: kith,
+    title: 'Kith Footwear',
+     desc: 'Ecommerce store prototype. Built with React, Webpack, styled-components, CSS grid, tachyons, and more. Click to view.',
+
+     role: "Built each piece of UI as a React component. Each product card is rendered from a mapped array, and inserted into a responsive CSS Grid.  All product data is passed from parent to child component via props. Set up custom media queries with ES6 template strings, which retrieve screen widths from a javascript object.",
+
+
+    // TAGS:
+     tag1: 'React',
+     tag2: 'CSS Grid',
+     tag3: 'Webpack',
+     tag4: 'Styled-components',
+
+     year: 2018,
+         // HREF LINK
+    link: "http://kith-store.aaronadler.com"
+  },
+  {
+    key: '2B',
     image: 'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/motet3b.jpg',
     title: 'Motet - Music App UI',
      desc: 'Mobile music app with a minimal graphic interface. Light scheme to contrast against Spotify. Click to view.',
 
      role: "Developed the brand identity with Photoshop and Illustrator. Created the UI design of all screens at 1x with Sketch.",
     // TAGS:
-     tag1: 'sketch',
-     tag2: 'illustrator',
-     tag3: 'photoshop',
-     tag4: 'svg',
+     tag1: 'Sketch',
+     tag2: 'Illustrator',
+     tag3: 'Photoshop',
+     tag4: 'SVG',
 
      year: 2017,
          // HREF LINK
@@ -89,7 +70,7 @@ const projects = [
      tag1: 'React',
      tag2: 'CSS3',
      tag3: 'javascript',
-     tag4: 'youtube api',
+     tag4: 'YouTube API',
 
      year: 2017,
          // HREF LINK
@@ -104,10 +85,10 @@ const projects = [
      role: "Built the multipage site using HTML5, CSS3, Flexbox, Sass, Javascript and Gulp. Animated the logo with Greensock/GSAP TweenMax. Handed off to internal engineers for deployment.",
     // TAGS:
     //  tag1: 'sketch',
-     tag1: 'html5',
-     tag2: 'css3',
+     tag1: 'Html5',
+     tag2: 'CSS3',
      tag3: 'javascript',
-     tag4: 'gulp',
+     tag4: 'Gulp',
 
      year: 2018,
     //  tag6: 'sass/scss',
@@ -123,10 +104,10 @@ const projects = [
 
      role: "Developed the brand identity with Photoshop and Illustrator. Created the UI design of all screens at 1x with Sketch.",
     // TAGS:
-     tag1: 'sketch',
-     tag2: 'illustrator',
-     tag3: 'photoshop',
-     tag4: 'svg',
+     tag1: 'Sketch',
+     tag2: 'Illustrator',
+     tag3: 'Photoshop',
+     tag4: 'SVG',
 
      year: 2016,
     // HREF LINK
@@ -144,11 +125,11 @@ const projects = [
     // TAGS:
     //  tag1: 'sketch',
     //  tag2: 'CSS3',
-     tag1: 'after effects',
+     tag1: 'After Effects',
      tag2: 'javascript',
-     tag3: 'lottie',
-     tag4: 'illustrator',
-     tag5: 'svg',
+     tag3: 'Lottie',
+     tag4: 'Illustrator',
+     tag5: 'SVG',
 
      year: 2017,
          // HREF LINK
@@ -163,14 +144,14 @@ const projects = [
 
      role: "I worked with a writer to develop the creative concept. Designed the layouts with Sketch and Adobe Creative Suite.",
     // TAGS:
-     tag1: 'sketch',
-     tag2: 'illustrator',
-     tag3: 'photoshop',
-     tag4: 'svg',
+     tag1: 'Sketch',
+     tag2: 'Illustrator',
+     tag3: 'Photoshop',
+     tag4: 'SVG',
 
      year: 2014,
     //  tag5: 'bodymovin',
-    //  tag6: 'illustrator',
+    //  tag6: 'Illustrator',
     //  tag7: '',
     // HREF LINK
     link: "https://dribbble.com/shots/3939152-Google-Play-All-Together-Beauty"
@@ -185,7 +166,7 @@ const projects = [
     // TAGS:
      tag1: 'ARstudio',
      tag2: 'blender3D',
-     tag3: 'photoshop',
+     tag3: 'Photoshop',
      tag4: 'aftereffects',
 
      year: 2017,
@@ -200,7 +181,7 @@ const projects = [
 
      role: "tba",
     // TAGS:
-     tag1: 'illustrator',
+     tag1: 'Illustrator',
      tag2: 'aftereffects',
      tag3: 'javascript',
      tag4: 'lottie',
@@ -232,7 +213,7 @@ const projects = [
     title: 'Museum of Ice Cream - Facebook Camera Effect',
      desc: 'Interactive AR 3D-based Facebook Camera Effect for the Museum of Ice Cream. Click to view the video and Camera Effect on your mobile device.',
 
-     role: "Received the ice cream scoops, cone and peppermints as .obj 3D models. Added colors, textures, and materials in ARStudio. Created the typography and background animations in After Effects. Configured the objects to a face-tracker in ARStudio.",
+     role: "Received the ice cream scoops, cone and peppermint assets as .obj 3D models. Added colors, textures, and materials in ARStudio. Created the typography and background animations in After Effects. Configured the objects to a face-tracker in ARStudio.",
     // TAGS:
      tag1: 'ARStudio',
      tag2: 'blender3D',
@@ -251,10 +232,10 @@ const projects = [
 
      role: "tba",
     // TAGS:
-     tag1: 'sketch',
-     tag2: 'illustrator',
-     tag3: 'svg',
-     tag4: 'photoshop',
+     tag1: 'Sketch',
+     tag2: 'Illustrator',
+     tag3: 'SVG',
+     tag4: 'Photoshop',
 
      year: 2011,
       // HREF LINK
@@ -268,10 +249,10 @@ const projects = [
 
      role: "tba",
     // TAGS:
-     tag1: 'sketch',
-     tag2: 'illustrator',
-     tag3: 'photoshop',
-     tag4: 'svg',
+     tag1: 'Sketch',
+     tag2: 'Illustrator',
+     tag3: 'Photoshop',
+     tag4: 'SVG',
 
      year: 2016,
      // HREF LINK
@@ -320,10 +301,10 @@ const projects = [
 
      role: "tba",
     // TAGS:
-     tag1: 'illustrator',
+     tag1: 'Illustrator',
      tag2: 'aftereffects',
      tag3: 'lottie',
-     tag4: 'svg',
+     tag4: 'SVG',
 
      year: 2016,
     // HREF LINK
@@ -338,9 +319,9 @@ const projects = [
 
      role: "tba",
     // TAGS:
-    tag1: 'sketch',
-    tag2: 'photoshop',
-    tag3: 'illustrator',
+    tag1: 'Sketch',
+    tag2: 'Photoshop',
+    tag3: 'Illustrator',
     tag4: 'concept',
 
     year: 2017,
@@ -355,9 +336,9 @@ const projects = [
 
      role: "tba",
     // TAGS:
-    tag1: 'sketch',
-    tag2: 'photoshop',
-    tag3: 'illustrator',
+    tag1: 'Sketch',
+    tag2: 'Photoshop',
+    tag3: 'Illustrator',
     tag4: 'concept',
 
     year: 2015,
@@ -370,9 +351,9 @@ const projects = [
   //   title: 'DirecTV "Thumbs"',
   //    desc: 'Creative concept to promote the breadth of DirecTV channels and services. Agency: BBDO New York',
   //   // TAGS:
-  //   tag1: 'sketch',
-  //   tag2: 'photoshop',
-  //   tag3: 'illustrator',
+  //   tag1: 'Sketch',
+  //   tag2: 'Photoshop',
+  //   tag3: 'Illustrator',
   //   tag4: 'concept',
   //   // HREF LINK
   //   link: ""
@@ -401,9 +382,9 @@ const projects = [
   //   title: 'Guinness "Good Things Come"',
   //    desc: 'Creative concept to promote Guinness. Agency: AMV BBDO London',
   //   // TAGS:
-  //   tag1: 'sketch',
-  //   tag2: 'photoshop',
-  //   tag3: 'illustrator',
+  //   tag1: 'Sketch',
+  //   tag2: 'Photoshop',
+  //   tag3: 'Illustrator',
   //   tag4: 'concept',
   //        // HREF LINK
   //        link: ""
@@ -416,9 +397,9 @@ const projects = [
   //   title: 'London Graphic Centre',
   //    desc: 'Creative concept to promote London Graphic Centre paints. Agency: AMV BBDO London',
   //   // TAGS:
-  //   tag1: 'sketch',
-  //   tag2: 'photoshop',
-  //   tag3: 'illustrator',
+  //   tag1: 'Sketch',
+  //   tag2: 'Photoshop',
+  //   tag3: 'Illustrator',
   //   tag4: 'concept',
   //   // HREF LINK
   //   link: ""
@@ -431,9 +412,9 @@ const projects = [
   //   title: 'Snickers "What Are You Hungry For"',
   //    desc: 'Creative concept to promote Snickers partnership with the NFL. Agency: BBDO New York',
   //   // TAGS:
-  //    tag1: 'sketch',
-  //    tag2: 'photoshop',
-  //    tag3: 'illustrator',
+  //    tag1: 'Sketch',
+  //    tag2: 'Photoshop',
+  //    tag3: 'Illustrator',
   //    tag4: 'concept',
   //     // HREF LINK
   //     link: ""
@@ -448,10 +429,10 @@ const projects = [
 
      role: "tba",
     // TAGS:
-     tag1: 'illustrator',
+     tag1: 'Illustrator',
      tag2: 'aftereffects',
      tag3: 'lottie',
-     tag4: 'svg',
+     tag4: 'SVG',
 
      year: 2017,
      // HREF LINK
