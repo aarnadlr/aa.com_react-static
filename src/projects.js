@@ -241,58 +241,58 @@ const projects = [
       // HREF LINK
     link: "https://dribbble.com/shots/3998425-Arthritis-Foundation-graphic"
   },
-  {
-    key: 13,
-    image: 'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/facebook-rect.jpg',
-    title: 'Facebook "Stay Close"',
-     desc: 'Creative concept and design to promote Facebook Stories. Click to view.',
+  // {
+  //   key: 13,
+  //   image: 'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/facebook-rect.jpg',
+  //   title: 'Facebook "Stay Close"',
+  //    desc: 'Creative concept and design to promote Facebook Stories. Click to view.',
 
-     role: "tba",
-    // TAGS:
-     tag1: 'Sketch',
-     tag2: 'Illustrator',
-     tag3: 'Photoshop',
-     tag4: 'SVG',
+  //    role: "tba",
+  //   // TAGS:
+  //    tag1: 'Sketch',
+  //    tag2: 'Illustrator',
+  //    tag3: 'Photoshop',
+  //    tag4: 'SVG',
 
-     year: 2016,
-     // HREF LINK
-     link: "https://dribbble.com/shots/3440241-Facebook-Stories-Silicon-Valley"
-  },
-  {
-    key: 14,
-    image: 'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/sweeps-rect.jpg',
-    title: 'Fedex "Sweeps"',
-     desc: 'Creative concept to promote FedEx small business services. Agency: BBDO New York. Click to view.',
+  //    year: 2016,
+  //    // HREF LINK
+  //    link: "https://dribbble.com/shots/3440241-Facebook-Stories-Silicon-Valley"
+  // },
+  // {
+  //   key: 14,
+  //   image: 'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/sweeps-rect.jpg',
+  //   title: 'Fedex "Sweeps"',
+  //    desc: 'Creative concept to promote FedEx small business services. Agency: BBDO New York. Click to view.',
 
-     role: "tba",
+  //    role: "tba",
 
-    // TAGS:
-     tag1: 'concept',
-     tag2: 'film/tv',
-     tag3: 'art direction',
-     tag4: 'creative',
+  //   // TAGS:
+  //    tag1: 'concept',
+  //    tag2: 'film/tv',
+  //    tag3: 'art direction',
+  //    tag4: 'creative',
 
-     year: 2007,
-      // HREF LINK
-      link: "https://vimeo.com/8253231"
-  },
-  {
-    key: 15,
-    image: 'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/wind-rect.jpg',
-    title: 'Fox Sports "Wind"',
-     desc: 'Creative concept to promote the NBA on Fox Sports. Agency: Cliff Freeman & Partners. Click to view.',
+  //    year: 2007,
+  //     // HREF LINK
+  //     link: "https://vimeo.com/8253231"
+  // },
+  // {
+  //   key: 15,
+  //   image: 'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/wind-rect.jpg',
+  //   title: 'Fox Sports "Wind"',
+  //    desc: 'Creative concept to promote the NBA on Fox Sports. Agency: Cliff Freeman & Partners. Click to view.',
 
-     role: "tba",
-    // TAGS:
-    tag1: 'concept',
-    tag2: 'film/tv',
-    tag3: 'art direction',
-    tag4: 'creative',
+  //    role: "tba",
+  //   // TAGS:
+  //   tag1: 'concept',
+  //   tag2: 'film/tv',
+  //   tag3: 'art direction',
+  //   tag4: 'creative',
 
-    year: 2004,
-         // HREF LINK
-         link: "https://vimeo.com/8285842"
-  },
+  //   year: 2004,
+  //        // HREF LINK
+  //        link: "https://vimeo.com/8285842"
+  // },
   {
     key: 16,
     image: 'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/arcteryx2.jpg',
