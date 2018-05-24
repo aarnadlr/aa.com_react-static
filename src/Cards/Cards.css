@@ -13,3 +13,7 @@
 p.tag:not([first]){
   margin-left: 6px;
 }
+
+p.projectRole{
+  /* line-height: 1.3; */
+}

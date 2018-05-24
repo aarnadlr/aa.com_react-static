@@ -60,6 +60,23 @@ const projects = [
     link: "https://www.behance.net/gallery/60987045/Motet-Music-Application-Identity-and-UI-Design"
   },
   {
+    key: '2C',
+    image: 'https://dl.dropboxusercontent.com/s/4siji9ixbeggje9/blockchain-RECT-2.gif',
+    title: 'Blockchain.com - Wallet UI',
+     desc: 'Currency Slider Component for iOS Wallet App, which allows the user to select and transact with multiple currencies. Click to view.',
+
+     role: "Developed the Currency Slider Component with Sketch and AdobeCC. Designed the UI component of all screens at 1x with Sketch.",
+    // TAGS:
+     tag1: 'Sketch',
+     tag2: 'Illustrator',
+     tag3: 'Photoshop',
+     tag4: 'SVG',
+
+     year: 2017,
+         // HREF LINK
+    link: "https://www.behance.net/gallery/65967583/Blockchaincom-UI-Currency-Slider"
+  },
+  {
     key: 5,
     image: 'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/youtubezero3-rect.gif',
     title: 'YouTube Zero',
@@ -327,24 +344,26 @@ const projects = [
     year: 2017,
          // HREF LINK
          link: "https://dribbble.com/shots/3991223-HBO-Curb-Your-Enthusiasm-Season-9-Pret-ty-Good"
-  },
-  {
-    key: 18,
-    image: 'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/ski-nyc.gif',
-    title: 'Ski NYC',
-     desc: "Tribute to New York City winter. Click to view.",
+  }
+  // ,
+  // {
+  //   key: 18,
+  //   image: 'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/ski-nyc.gif',
+  //   title: 'Ski NYC',
+  //    desc: "Tribute to New York City winter. Click to view.",
 
-     role: "tba",
-    // TAGS:
-    tag1: 'Sketch',
-    tag2: 'Photoshop',
-    tag3: 'Illustrator',
-    tag4: 'concept',
+  //    role: "tba",
+  //   // TAGS:
+  //   tag1: 'Sketch',
+  //   tag2: 'Photoshop',
+  //   tag3: 'Illustrator',
+  //   tag4: 'concept',
 
-    year: 2015,
-    // HREF LINK
-    link: "https://dribbble.com/shots/3991227--SKI-NYC"
-  },
+  //   year: 2015,
+  //   // HREF LINK
+  //   link: "https://dribbble.com/shots/3991227--SKI-NYC"
+  // }
+  // ,
   // {
   //   key: 19,
   //   image: 'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/thumbs2-rect.jpg',
@@ -358,23 +377,23 @@ const projects = [
   //   // HREF LINK
   //   link: ""
   // },
-  {
-    key: 20,
-    image: 'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/noah-rect.jpg',
-    title: 'The Weather Channel "Noah"',
-     desc: "Film to launch The Weather Channel's personalized weather feature on their mobile app. Agency: BBH New York",
+  // {
+  //   key: 20,
+  //   image: 'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/noah-rect.jpg',
+  //   title: 'The Weather Channel "Noah"',
+  //    desc: "Film to launch The Weather Channel's personalized weather feature on their mobile app. Agency: BBH New York",
 
-     role: "tba",
-    // TAGS:
-    tag1: 'concept',
-    tag2: 'film/tv',
-    tag3: 'art direction',
-    tag4: 'creative',
+  //    role: "tba",
+  //   // TAGS:
+  //   tag1: 'concept',
+  //   tag2: 'film/tv',
+  //   tag3: 'art direction',
+  //   tag4: 'creative',
 
-    year: 2011,
-    // HREF LINK
-    link: "https://vimeo.com/95035102"
-  },
+  //   year: 2011,
+  //   // HREF LINK
+  //   link: "https://vimeo.com/95035102"
+  // },
 
   // {
   //   key:22,
@@ -421,23 +440,23 @@ const projects = [
   // },
 
 
-  {
-    key: 25,
-    image: 'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/hermes-rev.gif',
-    title: 'Hermés - HTML5 Remix',
-     desc: 'A Codepen tribute to HTML5 via the Hermés logo. Created with Adobe After Effects and converted to JSON via Lottie/Bodymovin.',
+  // {
+  //   key: 25,
+  //   image: 'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/hermes-rev.gif',
+  //   title: 'Hermés - HTML5 Remix',
+  //    desc: 'A Codepen tribute to HTML5 via the Hermés logo. Created with Adobe After Effects and converted to JSON via Lottie/Bodymovin.',
 
-     role: "tba",
-    // TAGS:
-     tag1: 'Illustrator',
-     tag2: 'aftereffects',
-     tag3: 'lottie',
-     tag4: 'SVG',
+  //    role: "tba",
+  //   // TAGS:
+  //    tag1: 'Illustrator',
+  //    tag2: 'aftereffects',
+  //    tag3: 'lottie',
+  //    tag4: 'SVG',
 
-     year: 2017,
-     // HREF LINK
-     link: ""
-  }
+  //    year: 2017,
+  //    // HREF LINK
+  //    link: ""
+  // }
 
 ]
 
