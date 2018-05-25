@@ -72,7 +72,7 @@ const projects = [
      tag3: 'Photoshop',
      tag4: 'SVG',
 
-     year: 2017,
+     year: 2018,
          // HREF LINK
     link: "https://www.behance.net/gallery/65967583/Blockchaincom-UI-Currency-Slider"
   },
