@@ -1,5 +1,5 @@
 import kith from './images/kith-rect3.jpg';
-
+import bpCover from './images/Blockparty-800x400-3.jpg';
 
 const projects = [
   {
@@ -45,7 +45,7 @@ const projects = [
   {
     key: '2B',
     image: 'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/motet3b.jpg',
-    title: 'Motet - Music App UI',
+    title: 'Motet - Music App UX/UI',
      desc: 'Mobile music app with a minimal graphic interface. Light scheme to contrast against Spotify. Click to view.',
 
      role: "Developed the brand identity with Photoshop and Illustrator. Created the UI design of all screens at 1x with Sketch.",
@@ -59,6 +59,32 @@ const projects = [
          // HREF LINK
     link: "https://www.behance.net/gallery/60987045/Motet-Music-Application-Identity-and-UI-Design"
   },
+
+
+  // vvv BLOCKPARTY
+  // vvv BLOCKPARTY
+  // vvv BLOCKPARTY
+  {
+    key: '2BB',
+    image: bpCover,
+    title: 'Blockparty - Blockchain App UX/UI',
+     desc: 'Blockchain-based event-ticketing platform. The polygonal hippo graphic is original artwork created with D-Mesh. Click to view.',
+
+     role: "Designed the onboarding flow UI screens; built React components which were ported to React Native; developed the character design for their polygonal hippo mascot. The polygonal hippo is original artwork created with DMesh.",
+    // TAGS:
+     tag1: 'Sketch',
+     tag2: 'Illustrator',
+     tag3: 'DMesh',
+     tag4: 'React',
+
+     year: 2018,
+         // HREF LINK
+    link: "https://www.behance.net/gallery/66044535/Blockparty-Blockchain-UXUI-Mobile-App-Site-Design"
+  },
+
+
+
+
   {
     key: '2C',
     image: 'https://dl.dropboxusercontent.com/s/4siji9ixbeggje9/blockchain-RECT-2.gif',
@@ -95,7 +121,7 @@ const projects = [
   },
   {
     key: 3,
-    image: 'https://ww3.aaronadler.com/assets/img/tradewind/Tradewind-800x400.gif',
+    image: 'https://ww2.aaronadler.com/images/Tradewind-800x400.gif',
     title: 'Tradewind Markets - Blockchain platform',
      desc: "Designed, built and coded Tradewind's web presence, as well as a coded animated logo treatment.",
 
@@ -206,24 +232,25 @@ const projects = [
      year: 2017,
      // HREF LINK
      link: "https://codepen.io/aaronadler/pen/OzLYYM"
-  },
-  {
-    key: 10,
-    image: 'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/arss.gif',
-    title: 'ARsocialstudio',
-     desc: 'ARss is a microservice to build and deploy 3D Facebook Camera Effects for clients. 3D modeling, scripting and publication to the Camera Effects Platform. Click to view site.',
+  }
+  ,
+  // {
+  //   key: 10,
+  //   image: 'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/arss.gif',
+  //   title: 'ARsocialstudio',
+  //    desc: 'ARss is a microservice to build and deploy 3D Facebook Camera Effects for clients. 3D modeling, scripting and publication to the Camera Effects Platform. Click to view site.',
 
-     role: "tba",
-    // TAGS:
-     tag1: 'html5',
-     tag2: 'css3',
-     tag3: 'javascript',
-     tag4: 'gulp',
+  //    role: "tba",
+  //   // TAGS:
+  //    tag1: 'html5',
+  //    tag2: 'css3',
+  //    tag3: 'javascript',
+  //    tag4: 'gulp',
 
-     year: 2017,
-     // HREF LINK
-     link: "https://thearss.com/"
-  },
+  //    year: 2017,
+  //    // HREF LINK
+  //    link: "https://thearss.com/"
+  // },
   {
     key: 11,
     image: 'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/moic3.gif',

@@ -18,7 +18,7 @@ const WelcomeBio = () => (
       <img
         id="profile-pic"
         className="grow2 center mb3"
-        src="https://ww3.aaronadler.com/assets/img/ww3-aa/profile-pic.jpg"
+        src="https://ww2.aaronadler.com/images/profile-pic.jpg"
         alt='alt'
       />
       <p className="f2c tc">Aaron Adler</p>
