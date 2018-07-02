@@ -8,130 +8,191 @@ const CoreTools = () => (
 
       <div className="coreskills-box__core-col blue0">
         <h1 className="">Core Tools</h1>
-        <p>Software I'm comfortable working with on any project.</p>
+        <p>Software and libraries I often work with in projects.</p>
         <ul>
           <li className="skill">
             <span className="fa-stack">
               <i className="fa fa-pencil rainbow1" />
             </span>
             Sketch</li>
+
+
+
           <li className="skill">
             <span className="fa-stack">
-              <i className="fa fa-youtube-play rainbow2" />
-            </span>
-            After Effects</li>
-          <li className="skill">
-            <span className="fa-stack">
-              <i className="fa fa-camera rainbow3" />
-            </span>
-            Photoshop</li>
-          <li className="skill">
-            <span className="fa-stack">
-              <i className="fa fa-picture-o rainbow4" />
-            </span>
-            Illustrator</li>
-          <li className="skill">
-            <span className="fa-stack">
-              <i className="fa fa-html5 rainbow5" />
+              <i className="fa fa-html5 rainbow2" />
             </span>
             HTML5</li>
+
+
           <li className="skill">
             <span className="fa-stack">
-              <i className="fa fa-css3 rainbow6" />
+              <i className="fa fa-css3 rainbow3" />
             </span>
             CSS3</li>
+
+
           <li className="skill">
             <span className="fa-stack">
-              <i className="fa fa-th-large rainbow7" />
+              <i className="fa fa-th-large rainbow4" />
             </span>
-            CSSGrid</li>
+            CSS Grid</li>
+
+
           <li className="skill">
             <span className="fa-stack">
-              <i className="fa fa-bars rainbow8" />
+              <i className="fa fa-bars rainbow5" />
             </span>
-            CSSFlexbox</li>
+            CSS Flexbox</li>
+
+
           <li className="skill">
             <span className="fa-stack">
-              <i className="fa fa-file-photo-o rainbow9" />
+              {/* <i className="fa fa-file-photo-o rainbow6" /> */}
+              <i class="fab fa-sass rainbow6"></i>
+            </span>{""}Sass/scss</li>
+
+          <li className="skill">
+            <span className="fa-stack">
+              <i className="fa fa-youtube-play rainbow7" />
+            </span>
+            After Effects</li>
+
+          <li className="skill">
+            <span className="fa-stack">
+              <i className="fa fa-camera rainbow8" />
+            </span>
+            Photoshop</li>
+
+
+          <li className="skill">
+            <span className="fa-stack">
+              <i className="fa fa-picture-o rainbow8" />
+            </span>
+            Illustrator</li>
+
+
+
+          <li className="skill">
+            <span className="fa-stack">
+              <i className="fab fa-js-square rainbow9"></i>
             </span>{" "}
-            Sass/SCSS</li>
-          <li className="skill">
-            <span role='img' aria-label="skill" className="f4">💅 </span> &nbsp; Styled-Components
+            Javascript ES6
           </li>
+
+            
           <li className="skill">
             <span className="fa-stack">
-              <i className="fa fa-th-large rainbow10" />
+              {/* <i className="fab fa-react rainbow9" /> */}
+              <i className="fab fa-react rainbow9"></i>
+            </span>
+            React
+          </li>
+          
+
+          <li className="skill">
+            <span className="fa-stack">
+            <i className="fa fa-code rainbow9" />
+            </span>
+            NextJS
+          </li>
+
+
+
+          <li className="skill">
+            <span role='img' aria-label="skill" className="f4">💅 </span> &nbsp;Styled-Components
+          </li>
+
+
+          <li className="skill">
+            <span className="fa-stack">
+              <i className="fa fa-th-large rainbow9" />
             </span>{" "}
             Bootstrap 4</li>
-          <li className="skill">
-            <span className="fa-stack">
-              <i className="fa fa-code rainbow11" />
-            </span>{" "}
-            Javascript ES6</li>
-          <li className="skill">
-            <span className="fa-stack">
-              <i className="fa fa-asterisk rainbow12" />
-            </span>{" "}
-            React</li>
-          <li className="skill">
+
+       
+
+          {/* <li className="skill">
             <span className="fa-stack">
               <i className="fa fa-language rainbow13" />
             </span>{" "}
-            Babel</li>
+            Babel</li> */}
+
           <li className="skill">
             <span className="fa-stack">
-              <i className="fa fa-bolt rainbow14" />
+              <i className="fa fa-bolt rainbow10" />
             </span>{" "}
             Tachyons</li>
+
+
           <li className="skill">
             <span className="fa-stack">
-              <i className="fa fa-magic rainbow15" />
+              <i className="fa fa-magic rainbow11" />
             </span>{" "}
             jQuery</li>
-          <li className="skill">
+            
+          {/* <li className="skill">
             <span className="fa-stack">
               <i className="fa fa-laptop rainbow16" />
             </span>{" "}
-            IBM Color Library</li>
-          <li className="skill">
+            IBM Color Library</li> */}
+
+
+          {/* <li className="skill">
             <span className="fa-stack">
               <i className="fa fa-adjust rainbow17" />
             </span>{" "}
-            Palx</li>
+            Palx</li> */}
+
+            
           <li className="skill">
             <span className="fa-stack">
-              <i className="fa fa-file-video-o rainbow18" />
+              <i className="fa fa-file-video-o rainbow12" />
             </span>{" "}
             Greensock/GSAP</li>
-          <li className="skill">
+
+
+          {/* <li className="skill">
             <span className="fa-stack">
               <i className="fa fa-first-order rainbow17" />
             </span>{" "}
-            SemanticUI</li>
+            SemanticUI</li> */}
+
+
           <li className="skill">
             <span className="fa-stack">
-              <i className="fa fa-window-maximize rainbow16" />
+              <i className="fa fa-window-maximize rainbow12" />
             </span>{" "}
-            SVG</li><li className="skill">
+            SVG</li>
+            
+            <li className="skill">
             <span className="fa-stack">
-              <i className="fa fa-git rainbow15" />
+              <i className="fa fa-git rainbow13" />
             </span>{" "}
             Git/GitHub</li>
+
+
           <li className="skill">
             <span className="fa-stack">
-              <i className="fa fa-cube rainbow14" />
+              <i className="fa fa-cube rainbow13" />
+              
             </span>{" "}
             Blender3D</li>
+
+
           <li className="skill">
             <span className="fa-stack">
-              <i className="fa fa-facebook-square rainbow13" />
+              <i className="fa fa-facebook-square rainbow14" />
             </span>{" "}
             Facebook AR Studio</li>
+
+{/*             
           <li className="skill">
             <span className="fa-stack">
-              <i className="fa fa-columns rainbow12" />
+              <i className="fa fa-columns rainbow14" />
             </span>{" "}
-            InDesign</li>
+            InDesign</li> */}
+
         </ul>
       </div>
 
@@ -141,7 +202,7 @@ const CoreTools = () => (
 
       <div className="coreskills-box__core-col blue0">
         <h1 className="">Secondary Tools</h1>
-        <p>Software I've worked with, and am still learning.</p>
+        <p>Software I work with, and I am actively learning.</p>
         <ul>
           <li className="skill">
             <span className="fa-stack">
@@ -169,16 +230,26 @@ const CoreTools = () => (
           </li>
           <li className="skill">
             <span className="fa-stack">
-              <i className="fa fa-code-fork rainbow15" />
+              <i className="fa fa-code-fork rainbow14" />
             </span>{" "}
             Gulp
           </li>
-          <li className="skill">
+
+          {/* <li className="skill">
             <span className="fa-stack">
               <i className="fa fa-space-shuttle rainbow16" />
             </span>{" "}
             Meteor
+          </li> */}
+
+          <li className="skill">
+            <span className="fa-stack">
+              <i className="fa fa-language rainbow15" />
+            </span>{" "}
+            Babel
           </li>
+
+
           <li className="skill">
             <span className="fa-stack">
               <i className="fa fa-cube rainbow17" />

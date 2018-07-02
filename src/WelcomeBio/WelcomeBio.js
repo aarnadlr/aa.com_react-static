@@ -23,6 +23,7 @@ const WelcomeBio = () => (
       />
       <p className="f2c tc">Aaron Adler</p>
 
+
       {/* SOCIAL ICONS UNDER NAME */}
       <div className='flex justify-center mb4'>
         <a target='_blank' rel="noopener noreferrer" href="https://dribbble.com/aarnadlr"><Img alt='github' className='grow-large-2' src='./images/AA-dribbble-icon.png' /></a>
@@ -38,10 +39,10 @@ const WelcomeBio = () => (
 
       <Paragraph className="f5 lh-copy4 mh3">
         Hi there. I’m a UI / UX designer & Front-end developer in NYC. I’ve worked on
-        projects for Facebook, Google, IBM, R/GA, Droga5, BBH New York and
+        projects for Facebook, Google, IBM, R/GA, Droga5 and
         others. My work has been recognized by Cannes, AICP, the Art Directors
         Club, Clios, Communication Arts, Archive, Adweek, and the New York
-        Times. My focus is on <span className="bg-green8">&nbsp;UI / UX&nbsp;</span> , <span className="bg-teal8">&nbsp;React&nbsp;</span> , <span className="bg-cyan8">&nbsp;javascript&nbsp;</span> and <span className="bg-blue6">&nbsp;coded
+        Times. My focus is on <span className="bg-green8">&nbsp;UX design&nbsp;</span> , <span className="bg-teal8">&nbsp;CSS&nbsp;</span> , <span className="bg-cyan8">&nbsp;javascript (React)&nbsp;</span> and <span className="bg-blue6">&nbsp;coded
         animation&nbsp;</span>.
       </Paragraph>
     </div>
