@@ -11,7 +11,7 @@ const Container = styled.div`
 
 `
 const Div = styled.div`
-  width: 400px;
+  width: 430px;
   transition: all .3s ease;
   /* -moz-transition: scale .3s ease; */
   /* -webkit-transition: scale .3s ease; */
@@ -46,16 +46,17 @@ const Cards = () => {
           return (
 
 
-            <Div className="" key={uuidv1()}>
+            <Div key={uuidv1()}>
               {/* <Tilt
                 className="Tilt"
                 options={{ reverse: true, max: 12, scale: 1.03, speed: 900 }}
               > */}
                   <div className="br2 ma2 bg-white">
                     <a target="_blank" href={project.link}>
-                      <Img  src={project.image} alt="alt" className="w400" />
 
-                      <Div2 className="textContainer pa4 lh-copy3">
+                      <Img  src={project.image} alt="alt" className="" />
+
+                      <Div2 className="textContainer pa4b lh-copy3">
                         <p id="title" className="f3c mt1 mb0 fw6 lh-title">
                           {project.title}
                         </p>
@@ -66,9 +67,31 @@ const Cards = () => {
                         <p id="" className="projectRole f6 mt1 blue7 mb2 fw6">
                           My project role :
                         </p>
-                        <p id="" className="f6 mt1 blue7">
-                          {project.role} 
-                        </p>
+
+                        <ul style={{listStyleType:'circle'}} className='f6b blue7'>
+
+
+                          <li className='mt3'>{project.role1?project.role1:project.role}</li>
+
+                          {project.role2?
+                          <li className='mt3'>{project.role2}</li>
+                          :null}
+
+                          {project.role3?
+                          <li className='mt3'>{project.role3}</li>
+                          :null}
+
+                          {project.role4?
+                          <li className='mt3'>{project.role4}</li>
+                          :null}
+                          
+                          {project.role5?
+                          <li className='mt3'>{project.role5}</li>
+                          :null}
+
+                          
+                        </ul>
+
                         <p id="" className="f6 mt4 mb0 blue7 fw6">
                           Project stack:
                         </p>

@@ -49,7 +49,7 @@ const CoreTools = () => (
           <li className="skill">
             <span className="fa-stack">
               {/* <i className="fa fa-file-photo-o rainbow6" /> */}
-              <i class="fab fa-sass rainbow6"></i>
+              <i className="fab fa-sass rainbow6"></i>
             </span>{""}Sass/scss</li>
 
           <li className="skill">
@@ -76,7 +76,7 @@ const CoreTools = () => (
           <li className="skill">
             <span className="fa-stack">
               <i className="fab fa-js-square rainbow9"></i>
-            </span>{" "}
+            </span>
             Javascript ES6
           </li>
 
@@ -95,6 +95,14 @@ const CoreTools = () => (
             <i className="fa fa-code rainbow9" />
             </span>
             NextJS
+          </li>
+
+          <li className="skill">
+            <span className="fa-stack">
+            {/* <i className="fa fa-code rainbow9" /> */}
+            🔥 
+            </span>
+            Firebase
           </li>
 
 

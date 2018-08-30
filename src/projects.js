@@ -1,5 +1,6 @@
 import kith from './images/kith-rect3.jpg';
 import bpCover from './images/Blockparty-800x400-3.jpg';
+import wfCover from '../src/images/wellsfargo/wf-800x400_3.jpg'
 
 const projects = [
   {
@@ -7,27 +8,33 @@ const projects = [
     image: 'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/ibm/IBM-rect.jpg',
     // image: require('./images/ibm.png'),
     title: 'IBM Partners',
-    desc: "UI design and prototype development for IBM Partners, IBM's business services portal. Click to view the project.",
+    desc: "Wireframing, UX design and prototype development for IBM Partners, IBM's business services portal. Click to view the project.",
 
-    role: "UX wireframes, UI design, and client-side coded components using CSS3 and javascript. Implemented IBM’s Northstar and Duo design systems, including typography, .clr palettes, JSON type styles, grids and column layouts.",
+    // role: "UX wireframes, UI design, and client-side coded components using CSS3 and javascript. Implemented IBM’s Northstar and Duo design systems, including typography, .clr palettes, JSON type styles, grids and column layouts.",
+    role1:"Interfaced with IBM marketing, design and engineering teams to develop UX design and coded components for IBM Partners",
 
+    role2:"Implemented IBM’s Northstar and Duo design systems, including type, color palettes, grids, text styles, and column layouts",
+    role3:"Motion graphic creation for IBM Partners lockup compiled to JavaScript and SVG to run in the browser",
+
+    role4:"Delivered front-end javascript code to be implemented on the IBM website",
     // techstack: ""
     // TAGS:
     tag1: 'Sketch',
-    tag2: 'Html5',
+    tag2: 'HTML5',
     tag3: 'CSS3',
     tag4: 'javascript',
 
     year: 2018,
         // HREF LINK
-    link: "./ibm.html"
+    // link: "./ibm.html"
+    link: "https://www.ibm.com/partners/start/"
   },
   
   {
     key: 2,
     image: kith,
     title: 'Kith Footwear',
-     desc: 'Ecommerce store prototype. Built with React, Webpack, styled-components, CSS grid, tachyons, and more. Click to view.',
+     desc: 'Ecommerce store prototype. Built with React, Webpack, styled-components, CSS grid, tachyons, and more. Click to view the project.',
 
      role: "Built each piece of UI as a React component. Each product card is rendered from a mapped array, and inserted into a responsive CSS Grid.  All product data is passed from parent to child component via props. Set up custom media queries with ES6 template strings, which retrieve screen widths from a javascript object.",
 
@@ -43,10 +50,30 @@ const projects = [
     link: "http://kith-store.aaronadler.com"
   },
   {
+    key: '26',
+    image: wfCover,
+    title: 'Wells Fargo UX',
+    
+     desc: 'Redesign of the the Wells Fargo consumer banking design system. Click to view the project.',
+
+     role1: "Constructed the master design system “source of truth” Sketch file, consisting of typography, color palette, grid and column layouts.",
+     role2: "Built a family of button styles and their default, hover, active, and disabled states.",
+     role3: "Redesigned several interface components, including masthead, header nav menu, mobile nav menu, footer and others",
+    // TAGS:
+     tag1: 'Sketch',
+     tag2: 'Illustrator',
+     tag3: 'Photoshop',
+     tag4: 'SVG',
+
+     year: 2018,
+         // HREF LINK
+    link: "https://www.behance.net/gallery/69614231/Wells-Fargo-UX"
+  },
+  {
     key: '2B',
     image: 'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/motet3b.jpg',
     title: 'Motet - Music App UX/UI',
-     desc: 'Mobile music app with a minimal graphic interface. Light scheme to contrast against Spotify. Click to view.',
+     desc: 'Mobile music app with a minimal graphic interface. Light scheme to contrast against Spotify. Click to view the project.',
 
      role: "Developed the brand identity with Photoshop and Illustrator. Created the UI design of all screens at 1x with Sketch.",
     // TAGS:
@@ -102,23 +129,23 @@ const projects = [
          // HREF LINK
     link: "https://www.behance.net/gallery/65967583/Blockchaincom-UI-Currency-Slider"
   },
-  {
-    key: 5,
-    image: 'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/youtubezero3-rect.gif',
-    title: 'YouTube Zero',
-     desc: 'React application providing a zero-click YouTube search interface. Uses YouTube DataAPI v3. Click to view.',
+  // {
+  //   key: 5,
+  //   image: 'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/youtubezero3-rect.gif',
+  //   title: 'YouTube Zero',
+  //    desc: 'React application providing a zero-click YouTube search interface. Uses YouTube DataAPI v3. Click to view.',
 
-     role: 'Built the entire application in React. Used an API key to access YouTube Data API v3. Designed the components using styled-components and Tachyons.',
-    // TAGS:
-     tag1: 'React',
-     tag2: 'CSS3',
-     tag3: 'javascript',
-     tag4: 'YouTube API',
+  //    role: 'Built the entire application in React. Used an API key to access YouTube Data API v3. Designed the components using styled-components and Tachyons.',
+  //   // TAGS:
+  //    tag1: 'React',
+  //    tag2: 'CSS3',
+  //    tag3: 'javascript',
+  //    tag4: 'YouTube API',
 
-     year: 2017,
-         // HREF LINK
-    link: "https://youtubezero.herokuapp.com/"
-  },
+  //    year: 2017,
+  //        // HREF LINK
+  //   link: "https://youtubezero.herokuapp.com/"
+  // },
   {
     key: 3,
     image: 'https://ww2.aaronadler.com/images/Tradewind-800x400.gif',
@@ -128,7 +155,7 @@ const projects = [
      role: "Built the multipage site using HTML5, CSS3, Flexbox, Sass, Javascript and Gulp. Animated the logo with Greensock/GSAP TweenMax. Handed off to internal engineers for deployment.",
     // TAGS:
     //  tag1: 'sketch',
-     tag1: 'Html5',
+     tag1: 'HTML5',
      tag2: 'CSS3',
      tag3: 'javascript',
      tag4: 'Gulp',
@@ -242,7 +269,7 @@ const projects = [
 
   //    role: "tba",
   //   // TAGS:
-  //    tag1: 'html5',
+  //    tag1: 'HTML5',
   //    tag2: 'css3',
   //    tag3: 'javascript',
   //    tag4: 'gulp',
@@ -274,7 +301,7 @@ const projects = [
     title: 'Arthritis Foundation',
      desc: 'Graphic to promote awareness for the Arthritis Foundation. Click to view.',
 
-     role: "tba",
+     role: "Concept creation and graphic design",
     // TAGS:
      tag1: 'Sketch',
      tag2: 'Illustrator',
@@ -337,41 +364,41 @@ const projects = [
   //        // HREF LINK
   //        link: "https://vimeo.com/8285842"
   // },
-  {
-    key: 16,
-    image: 'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/arcteryx2.jpg',
-    title: "Arc'Teryx",
-     desc: "Animated lockup for outdoor equipment brand Arc'Teryx. Click to view.",
+  // {
+  //   key: 16,
+  //   image: 'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/arcteryx2.jpg',
+  //   title: "Arc'Teryx",
+  //    desc: "Animated lockup for outdoor equipment brand Arc'Teryx. Click to view.",
 
-     role: "tba",
-    // TAGS:
-     tag1: 'Illustrator',
-     tag2: 'aftereffects',
-     tag3: 'lottie',
-     tag4: 'SVG',
+  //    role: "tba",
+  //   // TAGS:
+  //    tag1: 'Illustrator',
+  //    tag2: 'aftereffects',
+  //    tag3: 'lottie',
+  //    tag4: 'SVG',
 
-     year: 2016,
-    // HREF LINK
-    link: "https://dribbble.com/shots/3988978-Arc-Teryx-Animated-Lockup"
+  //    year: 2016,
+  //   // HREF LINK
+  //   link: "https://dribbble.com/shots/3988978-Arc-Teryx-Animated-Lockup"
 
-  },
-  {
-    key: 17,
-    image: 'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/curb-your.gif',
-    title: 'HBO "Curb Your Enthusiasm"',
-     desc: "Graphic lockup and character illustration to promote HBO's Curb Your Enthusiasm Season 9. Click to view.",
+  // },
+  // {
+  //   key: 17,
+  //   image: 'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/curb-your.gif',
+  //   title: 'HBO "Curb Your Enthusiasm"',
+  //    desc: "Graphic lockup and character illustration to promote HBO's Curb Your Enthusiasm Season 9. Click to view.",
 
-     role: "tba",
-    // TAGS:
-    tag1: 'Sketch',
-    tag2: 'Photoshop',
-    tag3: 'Illustrator',
-    tag4: 'concept',
+  //    role: "tba",
+  //   // TAGS:
+  //   tag1: 'Sketch',
+  //   tag2: 'Photoshop',
+  //   tag3: 'Illustrator',
+  //   tag4: 'concept',
 
-    year: 2017,
-         // HREF LINK
-         link: "https://dribbble.com/shots/3991223-HBO-Curb-Your-Enthusiasm-Season-9-Pret-ty-Good"
-  }
+  //   year: 2017,
+  //        // HREF LINK
+  //        link: "https://dribbble.com/shots/3991223-HBO-Curb-Your-Enthusiasm-Season-9-Pret-ty-Good"
+  // }
   // ,
   // {
   //   key: 18,
