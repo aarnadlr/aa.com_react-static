@@ -95,10 +95,24 @@ const Cards = () => {
                         <p id="" className="f6 mt4 mb0 blue7 fw6">
                           Project stack:
                         </p>
+
                         <p first="" className="mt0 tag bg-blue5">{project.tag1}</p>
-                        <p         className="mt0 tag bg-blue6">{project.tag2}</p>
-                        <p         className="mt0 tag bg-indigo7">{project.tag3}</p>
-                        <p         className="mt0 tag bg-violet7">{project.tag4}</p>
+                        
+                        {project.tag2?
+                        <p className="mt0 tag bg-blue6">{project.tag2}</p>
+                        :null}
+
+                        {project.tag3?
+                        <p className="mt0 tag bg-indigo7">{project.tag3}</p>
+                        :null}
+
+                        {project.tag4?
+                        <p className="mt0 tag bg-violet7">{project.tag4}</p>
+                        :null}
+
+                        {project.tag5?
+                        <p className="mt0 tag bg-violet7">{project.tag5}</p>
+                        :null}
                         
                         <Completed id="" className="dib f7 blue7 ph3 pv2">
                           Completed: &nbsp;<span className="fw7">{project.year}</span>

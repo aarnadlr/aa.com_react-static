@@ -1,6 +1,6 @@
 import kith from './images/kith-rect3.jpg';
 import bpCover from './images/Blockparty-800x400-3.jpg';
-import wfCover from '../src/images/wellsfargo/wf-800x400_3.jpg'
+import wfCover from '../src/images/wellsfargo/wfLock2.jpg'
 
 const projects = [
   {
@@ -22,12 +22,12 @@ const projects = [
     tag1: 'Sketch',
     tag2: 'HTML5',
     tag3: 'CSS3',
-    tag4: 'javascript',
+    tag4: 'JavaScript',
 
     year: 2018,
         // HREF LINK
-    // link: "./ibm.html"
-    link: "https://www.ibm.com/partners/start/"
+    link: "./ibm.html"
+    // link: "https://www.ibm.com/partners/start/"
   },
   
   {
@@ -40,10 +40,11 @@ const projects = [
 
 
     // TAGS:
-     tag1: 'React',
+     tag1: 'HTML5',
      tag2: 'CSS Grid',
-     tag3: 'Webpack',
-     tag4: 'Styled-components',
+     tag3: 'JavaScript',
+     tag4: 'React',
+    //  tag4: 'Styled-components',
 
      year: 2018,
          // HREF LINK
@@ -54,7 +55,7 @@ const projects = [
     image: wfCover,
     title: 'Wells Fargo UX',
     
-     desc: 'Redesign of the the Wells Fargo consumer banking design system. Click to view the project.',
+     desc: 'Redesign of the the Wells Fargo consumer banking design system. Coming 2019; viewable by appointment.',
 
      role1: "Constructed the master design system “source of truth” Sketch file, consisting of typography, color palette, grid and column layouts.",
      role2: "Built a family of button styles and their default, hover, active, and disabled states.",
@@ -67,7 +68,7 @@ const projects = [
 
      year: 2018,
          // HREF LINK
-    link: "https://www.behance.net/gallery/69614231/Wells-Fargo-UX"
+    link: "./wellsfargo.html"
   },
   {
     key: '2B',
@@ -235,9 +236,9 @@ const projects = [
      role: "Received the helmet as a .obj 3D model. Added textures, materials and lighting in Blender and ARStudio. Created the background animations in After Effects. Configured the object to a face-tracker in ARStudio.",
     // TAGS:
      tag1: 'ARstudio',
-     tag2: 'blender3D',
+     tag2: 'Blender3D',
      tag3: 'Photoshop',
-     tag4: 'aftereffects',
+     tag4: 'After Eff',
 
      year: 2017,
      // HREF LINK
@@ -247,12 +248,12 @@ const projects = [
     key: 9,
     image: 'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/cotton-bur-rect.gif',
     title: "Cotton Bureau",
-     desc: 'Animated logo lockup for Cotton Bureau. Created in AfterEffects and converted to JSON via Lottie. Click to view on Codepen.',
+     desc: 'Animated logo lockup for Cotton Bureau. Created in After Effects and converted to JSON via Lottie. Click to view on Codepen.',
 
      role: "tba",
     // TAGS:
      tag1: 'Illustrator',
-     tag2: 'aftereffects',
+     tag2: 'After Effects',
      tag3: 'javascript',
      tag4: 'lottie',
 
@@ -287,9 +288,9 @@ const projects = [
      role: "Received the ice cream scoops, cone and peppermint assets as .obj 3D models. Added colors, textures, and materials in ARStudio. Created the typography and background animations in After Effects. Configured the objects to a face-tracker in ARStudio.",
     // TAGS:
      tag1: 'ARStudio',
-     tag2: 'blender3D',
+     tag2: 'Blender3D',
      tag3: 'Photoshop',
-     tag4: 'aftereffects',
+     tag4: 'After Eff',
 
      year: 2017,
       // HREF LINK
@@ -373,7 +374,7 @@ const projects = [
   //    role: "tba",
   //   // TAGS:
   //    tag1: 'Illustrator',
-  //    tag2: 'aftereffects',
+  //    tag2: 'After Eff',
   //    tag3: 'lottie',
   //    tag4: 'SVG',
 
@@ -503,7 +504,7 @@ const projects = [
   //    role: "tba",
   //   // TAGS:
   //    tag1: 'Illustrator',
-  //    tag2: 'aftereffects',
+  //    tag2: 'After Eff',
   //    tag3: 'lottie',
   //    tag4: 'SVG',
 
