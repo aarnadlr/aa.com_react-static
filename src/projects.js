@@ -1,11 +1,24 @@
 import kith from './images/kith-rect3.jpg';
+import ibm from './images/thumbs2018/IBM-rect.jpg';
+import arthritis from './images/thumbs2018/arthritis-rect.jpg';
+import motet from './images/thumbs2018/motet3b.jpg';
+import verbal from './images/thumbs2018/verbal4.jpg';
+import patagonia from './images/thumbs2018/patagonia-ww3.gif';
+import googlePlay from './images/thumbs2018/google-play-17-rect.jpg';
+
+import daftpunk from './images/thumbs2018/daftpunk-320.gif';
+import cottonBur from './images/thumbs2018/cotton-bur-rect.gif';
+import moic from './images/thumbs2018/moic3.gif';
+
+
 import bpCover from './images/Blockparty-800x400-3.jpg';
 import wfCover from '../src/images/wellsfargo/wfLock2.jpg'
 
 const projects = [
   {
     key: 1,
-    image: 'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/ibm/IBM-rect.jpg',
+    // image: './images/thumbs2018/IBM-rect.jpg',
+    image: ibm,
     // image: require('./images/ibm.png'),
     title: 'IBM Partners',
     desc: "Wireframing, UX design and prototype development for IBM Partners, IBM's business services portal. Click to view the project.",
@@ -26,8 +39,8 @@ const projects = [
 
     year: 2018,
         // HREF LINK
-    link: "./ibm.html"
-    // link: "https://www.ibm.com/partners/start/"
+    // link: "./ibm.html"
+    link: "https://www.ibm.com/partners/start/"
   },
   
   {
@@ -68,11 +81,11 @@ const projects = [
 
      year: 2018,
          // HREF LINK
-    link: "./wellsfargo.html"
+    link: "javascript:alert('👋👋👋 The Wells Fargo UX project is viewable by appointment until it is released in 2019  🙏🙏🙏')"
   },
   {
     key: '2B',
-    image: 'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/motet3b.jpg',
+    image: motet,
     title: 'Motet - Music App UX/UI',
      desc: 'Mobile music app with a minimal graphic interface. Light scheme to contrast against Spotify. Click to view the project.',
 
@@ -169,7 +182,7 @@ const projects = [
   },
   {
     key: 4,
-    image: 'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/verbal4.jpg',
+    image: verbal,
     title: 'Verbal - Messaging UI',
      desc: 'Single-purpose messaging app without marketplaces, ads, or other add-ons to encourage usage. Click to view.',
 
@@ -188,7 +201,7 @@ const projects = [
 
   {
     key: 6,
-    image: 'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/patagonia-ww3.gif',
+    image: patagonia,
     title: 'Patagonia Provisions',
      desc: "Animated sequence for Patagonia Provisions, Patagonia's line of foods and recipes. Click to view.",
 
@@ -209,7 +222,7 @@ const projects = [
 
   {
     key: 7,
-    image: 'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/google-play-17-rect.jpg',
+    image: googlePlay,
     title: 'Google Play',
      desc: 'Campaign concept and design to promote movies, music and book titles on Google Play. Click to view.',
 
@@ -229,7 +242,7 @@ const projects = [
   },
   {
     key: 8,
-    image: 'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/daftpunk-320.gif',
+    image: daftpunk,
     title: 'Daft Punk - Facebook Camera Effect AR',
      desc: 'The Daft Punk Helmet as a wearable Camera Effect. Click to view the video and experience the Camera Effect on mobile.',
 
@@ -246,7 +259,7 @@ const projects = [
   },
   {
     key: 9,
-    image: 'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/cotton-bur-rect.gif',
+    image: cottonBur,
     title: "Cotton Bureau",
      desc: 'Animated logo lockup for Cotton Bureau. Created in After Effects and converted to JSON via Lottie. Click to view on Codepen.',
 
@@ -281,7 +294,7 @@ const projects = [
   // },
   {
     key: 11,
-    image: 'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/moic3.gif',
+    image: moic,
     title: 'Museum of Ice Cream - Facebook Camera Effect',
      desc: 'Interactive AR 3D-based Facebook Camera Effect for the Museum of Ice Cream. Click to view the video and Camera Effect on your mobile device.',
 
@@ -298,7 +311,7 @@ const projects = [
   },
   {
     key: 12,
-    image: 'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/arthritis-rect.jpg',
+    image: arthritis,
     title: 'Arthritis Foundation',
      desc: 'Graphic to promote awareness for the Arthritis Foundation. Click to view.',
 

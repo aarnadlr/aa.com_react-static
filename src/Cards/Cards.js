@@ -52,6 +52,7 @@ const Cards = () => {
                 options={{ reverse: true, max: 12, scale: 1.03, speed: 900 }}
               > */}
                   <div className="br2 ma2 bg-white">
+                    {/* <a target="_blank" href={project.link?project.link:null}> */}
                     <a target="_blank" href={project.link}>
 
                       <Img  src={project.image} alt="alt" className="" />
