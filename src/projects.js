@@ -9,6 +9,7 @@ import googlePlay from './images/thumbs2018/google-play-17-rect.jpg';
 import daftpunk from './images/thumbs2018/daftpunk-320.gif';
 import cottonBur from './images/thumbs2018/cotton-bur-rect.gif';
 import moic from './images/thumbs2018/moic3.gif';
+import youtubeZero from './images/thumbs2018/youtubezero3-rect.gif';
 
 
 import bpCover from './images/Blockparty-800x400-3.jpg';
@@ -86,7 +87,7 @@ const projects = [
   {
     key: '2B',
     image: motet,
-    title: 'Motet - Music App UX/UI',
+    title: 'Motet - Music App UX',
      desc: 'Mobile music app with a minimal graphic interface. Light scheme to contrast against Spotify. Click to view the project.',
 
      role: "Developed the brand identity with Photoshop and Illustrator. Created the UI design of all screens at 1x with Sketch.",
@@ -102,13 +103,56 @@ const projects = [
   },
 
 
+  {
+    key: 5,
+    image: youtubeZero,
+    title: 'YouTube Zero',
+     desc: 'React application providing a zero-click YouTube search interface. Fetches data in realtime from YouTube DataAPI v3. Click to view.',
+
+     role: 'Built the entire application in React. Used an API key to access YouTube Data API v3. Designed the components using styled-components and Tachyons.',
+    // TAGS:
+     tag1: 'React',
+     tag2: 'CSS3',
+     tag3: 'javascript',
+     tag4: 'YouTube API',
+
+     year: 2017,
+         // HREF LINK
+    // link: "https://youtubezero.herokuapp.com/"
+    link: "https://youtubezero.now.sh/"
+  },
+
+
+  {
+    key: 3,
+    image: 'https://ww2.aaronadler.com/images/Tradewind-800x400.gif',
+    title: 'Tradewind Markets - Blockchain platform',
+     desc: "Designed, built and coded Tradewind's web presence, as well as a coded animated logo treatment.",
+
+     role: "Built the multipage site using HTML5, CSS3, Flexbox, Sass, Javascript and Gulp. Animated the logo with Greensock/GSAP TweenMax. Handed off to internal engineers for deployment.",
+    // TAGS:
+    //  tag1: 'sketch',
+     tag1: 'HTML5',
+     tag2: 'CSS3',
+     tag3: 'javascript',
+     tag4: 'Gulp',
+
+     year: 2018,
+    //  tag6: 'sass/scss',
+    //  tag7: 'svg',
+         // HREF LINK
+    // link: "https://www.behance.net/gallery/63693141/Tradewind-Markets-Blockchain-Technology-Website"
+    link: "https://tradewindmarkets.com"
+  },
+
+
   // vvv BLOCKPARTY
   // vvv BLOCKPARTY
   // vvv BLOCKPARTY
   {
     key: '2BB',
     image: bpCover,
-    title: 'Blockparty - Blockchain App UX/UI',
+    title: 'Blockparty - Blockchain app UX',
      desc: 'Blockchain-based event-ticketing platform. The polygonal hippo graphic is original artwork created with D-Mesh. Click to view.',
 
      role: "Designed the onboarding flow UI screens; built React components which were ported to React Native; developed the character design for their polygonal hippo mascot. The polygonal hippo is original artwork created with DMesh.",
@@ -143,43 +187,8 @@ const projects = [
          // HREF LINK
     link: "https://www.behance.net/gallery/65967583/Blockchaincom-UI-Currency-Slider"
   },
-  // {
-  //   key: 5,
-  //   image: 'https://s3.amazonaws.com/ww4-aa-com/img/ww3-aa/youtubezero3-rect.gif',
-  //   title: 'YouTube Zero',
-  //    desc: 'React application providing a zero-click YouTube search interface. Uses YouTube DataAPI v3. Click to view.',
-
-  //    role: 'Built the entire application in React. Used an API key to access YouTube Data API v3. Designed the components using styled-components and Tachyons.',
-  //   // TAGS:
-  //    tag1: 'React',
-  //    tag2: 'CSS3',
-  //    tag3: 'javascript',
-  //    tag4: 'YouTube API',
-
-  //    year: 2017,
-  //        // HREF LINK
-  //   link: "https://youtubezero.herokuapp.com/"
-  // },
-  {
-    key: 3,
-    image: 'https://ww2.aaronadler.com/images/Tradewind-800x400.gif',
-    title: 'Tradewind Markets - Blockchain platform',
-     desc: "Designed, built and coded Tradewind's web presence, as well as a coded animated logo treatment.",
-
-     role: "Built the multipage site using HTML5, CSS3, Flexbox, Sass, Javascript and Gulp. Animated the logo with Greensock/GSAP TweenMax. Handed off to internal engineers for deployment.",
-    // TAGS:
-    //  tag1: 'sketch',
-     tag1: 'HTML5',
-     tag2: 'CSS3',
-     tag3: 'javascript',
-     tag4: 'Gulp',
-
-     year: 2018,
-    //  tag6: 'sass/scss',
-    //  tag7: 'svg',
-         // HREF LINK
-    link: "https://www.behance.net/gallery/63693141/Tradewind-Markets-Blockchain-Technology-Website"
-  },
+ 
+  
   {
     key: 4,
     image: verbal,
